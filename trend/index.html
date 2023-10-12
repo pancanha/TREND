@@ -5,30 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TREND Conect+</title>
+    <link rel="stylesheet" href="trend.css">
 </head>
 
 <style>
     * {
         margin: 0px;
         padding: 0px;
-        
     }
 
     body {
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(134, 65, 65);
+        background-color: rgb(252, 252, 252);
     }
 
     header {
-        background-color: rgb(37, 44, 37);
+        background-color:#0c9b2bf1;
         padding: 1px;
-        margin: 10;
-        border: 1%;
+        margin: auto;
+        margin-bottom: 0px;
         min-height: 150px;
     }
 
     main>section {
-        background-color: rgb(189, 160, 160);
+        background-color: rgba(100, 192, 116, 0.315);
         padding: 8%;
         overflow: auto;
         margin: auto;
@@ -40,16 +40,25 @@
         margin-top: -20px;
         margin-bottom: 1%;
         border-radius: 10px;
-       
-
     }
 
     nav>a {
         text-decoration: none;
         color: rgb(243, 241, 241);
-        font-weight: bold;
+        font-weight: 4px;
         margin-right: 5%;
         margin-bottom: 2%;
+        position: absolute;
+    }
+    nav>a:hover {
+        text-decoration: none;
+        
+        color: var(--cor2);
+        font-weight: bold;
+        
+        margin-bottom: 2%;
+        
+        padding: 3px;
     }
 
     header>h1>img {
@@ -64,7 +73,7 @@
     }
 
     main>article {
-        padding: 2%;
+        padding: 5%;
         
 
     }
@@ -77,7 +86,7 @@
     }
 
     #planoA,#planoB,#planoC,#planoD,#planoE,#planoF {
-        background-color: rgb(20, 65, 9);
+        background-color: var(--cor1);
         color: rgb(255, 255, 255);
         padding: 20px;
         border-radius: 40px 0px;
@@ -92,9 +101,9 @@
         margin: auto;
         margin-right: 2%;
         margin-top: 2%;
-        border-width: 8px;
+        border-width: 5px;
         border-style: solid;
-        border-color: darkgreen;
+        border-color: rgb(0, 0, 0);
         border-radius: 50px 0px;
         
     }
@@ -105,7 +114,7 @@
         margin-top: 2%;
         border-width: 8px;
         border-style: solid;
-        border-color: darkgreen;
+        border-color: var(--cor1);
         border-radius: 50px 0px;
     }
     .planoC {
@@ -174,49 +183,59 @@
     }
 
     #beneficiosA {
-        background-color: rgb(81, 160, 160);
+        background-color: var(--cor3);
         padding: 50px;
+        
     }
 
     #especificacoes {
-        background-color: rgb(90, 192, 104);
+        background-color: var(--cor1);
         padding: 50px;
+        border-radius: 0px 0px 35px;
 
+    }
+    .mensalidade{
+        background-color: rgba(211, 111, 111, 0.445);
+        border-radius: 50px 0px 35px 0px;
+        
     }
 </style>
 
 <body>
-    <header>
-        <h1><img src="imagens/logotrend.png" alt="logotrend"></a></h1>
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">CONTATO</a>
-            <a href="#">QUEM SOMOS</a>
-            <a href="#">SAIBA MAIS+</a>
-        </nav>
 
-    </header>
-    <main><img src="imagens/trendbanner.jpg" alt="trendbanner" width="100%" height="500px">
-        <article style="list-style: none;">
+    
+        <header>
+            <h1><img src="imagens/logotrend.png" alt="logotrend"></a></h1>
+            <nav>
+                <a href="#">HOME</a>
+                <a style="margin-left: 9%;" href="#">CONTATO</a>
+                <a style="margin-left: 20%;" href="#">QUEM SOMOS</a>
+                <a style="margin-left: 30%;" href="#">SAIBA MAIS+</a>
+            </nav>
+        </header>
+    
+    
+    <main style="margin-top: 2px;"><img src="imagens/LOGO-DA-NET.png" alt="trendbanner" width="100%" height="100%">
+        <article>
             Aqui tem planos
         </article>
         <section id="todosPlanos" style="position: relative;">
             <article class="planoA">
-                <ul style="list-style: none;">
+                <ul class="mensalidade" style="list-style: none;">
                     <li id="planoA">
                         70MB
                     </li>
                     <li id="valorA">
-                        <div class="mensalidade">
+                        <div >
                             <span class="option">g</span>
                             <br>
                             <span class="cifao"><sup>R$</sup>
-                                <span class="reais">49.90
+                                <span class="reais">49,90
                                     <span class="mes"><sub>/mês</sub></span>
                         </div>
                     </li>
                     <li id="beneficiosA">
-                        Benefícios
+                        +R$5,00
                     </li>
                     <li id="especificacoes">
                         Quatro
@@ -225,7 +244,7 @@
             </article>
 
             <article class="planoB">
-                <ul style="list-style: none;">
+                <ul class="mensalidade" style="list-style: none;">
                     <li id="planoA">
                         100MB
                     </li>
@@ -234,7 +253,7 @@
                             <span class="option">g</span>
                             <br>
                             <span class="cifao"><sup>R$</sup>
-                                <span class="reais">59.90
+                                <span class="reais">59,90
                                     <span class="mes"><sub>/mês</sub></span>
                         </div>
                     </li>
@@ -248,16 +267,16 @@
             </article>
 
             <article class="planoC">
-                <ul style="list-style: none;">
+                <ul class="mensalidade" style="list-style: none;">
                     <li id="planoA">
                         150MB
                     </li>
                     <li id="valorA">
-                        <div class="mensalidade">
+                        <div >
                             <span class="option">g</span>
                             <br>
                             <span class="cifao"><sup>R$</sup>
-                                <span class="reais">79.90
+                                <span class="reais">79,90
                                     <span class="mes"><sub>/mês</sub></span>
                         </div>
                     </li>
@@ -270,16 +289,16 @@
                 </ul>
             </article>
             <article class="planoD">
-                <ul style="list-style: none;">
+                <ul class="mensalidade" style="list-style: none;">
                     <li id="planoD">
                         200MB
                     </li>
                     <li id="valorA">
-                        <div class="mensalidade">
+                        <div>
                             <span class="option">g</span>
                             <br>
                             <span class="cifao"><sup>R$</sup>
-                                <span class="reais">99.90
+                                <span class="reais">99,90
                                     <span class="mes"><sub>/mês</sub></span>
                         </div>
                     </li>
@@ -292,16 +311,16 @@
                 </ul>
             </article>
             <article class="planoE">
-                <ul style="list-style: none;">
+                <ul class="mensalidade" style="list-style: none;">
                     <li id="planoD">
                         300MB
                     </li>
                     <li id="valorA">
-                        <div class="mensalidade">
+                        <div>
                             <span class="option">g</span>
                             <br>
                             <span class="cifao"><sup>R$</sup>
-                                <span class="reais">119.90
+                                <span class="reais">119,90
                                     <span class="mes"><sub>/mês</sub></span>
                         </div>
                     </li>
@@ -314,16 +333,16 @@
                 </ul>
             </article>
             <article class="planoF">
-                <ul style="list-style: none;">
+                <ul class="mensalidade" style="list-style: none;">
                     <li id="planoD">
                         500MB
                     </li>
                     <li id="valorA">
-                        <div class="mensalidade">
+                        <div>
                             <span class="option">g</span>
                             <br>
                             <span class="cifao"><sup>R$</sup>
-                                <span class="reais">149.90
+                                <span class="reais">149,90
                                     <span class="mes"><sub>/mês</sub></span>
                         </div>
                     </li>

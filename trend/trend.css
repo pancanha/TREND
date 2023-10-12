@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #0DDE3A ;
+    --cor1: #368948;
+    --cor2: #a90cb8;
+    --cor3: #DE800D;
+    --cor4: #5E4C35;
+    --cor5: black;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue';
+    --fonte-android: 'idroid';
+}
+
