@@ -72,30 +72,24 @@
 
     main>article {
         padding: 5%;
-        
-        
-
     }
-    #todosPlanos:hover{
-        
-    }
+    
     #todosPlanos {
-        margin: auto;
-        padding: auto;
+        margin: 0%;
+        padding:100%;
         text-align: center;
-       
         background-color: var(--cor1);
         padding: 2%;
         overflow: auto;
-        
     
-  
+        max-width: 1350px;
+        margin-left: 0px;
     }
     
 
     #planoA,#planoB,#planoC,#planoD,#planoE,#planoF {
         background-color:var(--cor5);
-        color: rgb(255, 255, 255);
+        color: rgb(134, 226, 115);
         padding: 20px;
         border-radius: 10px 10px 0px 0px;
         border-width: 10px;
@@ -106,10 +100,12 @@
         font-weight: larger;   
     }
     
-    .planoA,.planoB,.planoC,.planoD,.planoE,.planoF {
+    .planoA {
         float: left;
-        margin: auto;
-        margin-right:2%;
+        margin: center;
+        margin-right:10px;
+        margin-top: 2%;
+        margin-left: 1%;
 
         border-width:1px;
         border-style: solid;
@@ -117,75 +113,59 @@
         border-radius: 11px 11px;
         box-shadow: 1px 2px 10px 0px;  
     }
- 
+    .planoA:hover {
+        float: left;
+        margin: center;
+        margin-right:10px;
+        margin-top: 1%;
+        margin-left: 1%;
 
-    #valorA {}
-
-    #valorB {}
-
-    .reais {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 35px;
-        margin-right: 20px;
+        border-width:1px;
+        border-style: solid;
+        border-color: green;
+        border-radius: 11px 11px;
+        box-shadow: 1px 2px 10px 0px;  
     }
-    .reai {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 35px;
-        margin-right: 15px;
-        
-        margin-left: -5px;
-    }
+   
 
-    .cifao {
-        font-size: 25px;
-    }
-
-    .mes {
-        font-family: Arial, Helvetica, sans-serif;
-        color: gray;
-        font-size: 15px;
-        margin-left:-8px;
-    }
-
-    #beneficios {
-        background-color:;
-        padding: 2%;
-        color: #ffffff;
-        font-family: 'Times New Roman', Times, serif;
-        margin-bottom: -15px;
-        background-color:rgb(238, 195, 78); 
-        
-    }
+   
 
     #especificacoes {
-        background-color: ;
         padding: 50px;
-        border-radius:;
-
+ 
     }
-    .mensalidade{
-        background-color: rgb(255, 255, 255);
+    .mensalidade{   
         border-radius: 10px 10px 10px 10px;
-        
+        padding-top: 20px; 
     }
 
     #imgmegas{
-        margin: -200px 15px 10px 800px;
-        padding: 2% 20% 2% 2%;
-        background-color: var(--cor3);
+        max-width: -100px;
+        max-height: -100px;
+        margin: -200px 10px 10px 750px;
+        padding: 2% 60% 2% 2%;
+        background-color: rgb(233, 176, 20);
         position: relative;
         
+
         
-        
-        
-        
+          
     }
     #meio{
-        padding: 5% 50% 2% 2%;
+        padding: 5% 5% 2% 2%;
         position: relative;
-        margin-bottom: 0% 0% 0% 0%;
+        max-width: 600px;
         margin-top: 100px;
-        
+        font-size: 1vw;
+         
+    }
+    #planoX{
+        margin: -10px;
+        padding: -100px;
+    }
+    .imagem:hover{
+        margin: 100px;
+        padding: 100px;
     }
     
     
@@ -210,174 +190,103 @@
             
             Estamos entusiasmados em anunciar que estamos expandindo nossos serviços de internet para atender a todas as necessidades de conexão. Na <a style="font-family: fontelogo; color: green;" >TREND</a> <strong>Connect+</strong>, acreditamos que a internet deve ser acessível e adaptada aos seus gostos individuais. É por isso que estamos oferecendo uma variedade de planos para garantir que você obtenha exatamente o que deseja.
             <div id="imgmegas">
-                <img src="imagens/5118825.jpg" width="300px"height="100%" alt="">
+                <img src="imagens/mulher_trend.png" width="400px"height="100%" alt="">
             </div>
         </h1>
         
             <section id="todosPlanos" style="position: relative;">
                 <article class="planoA">
                     <ul class="mensalidade" style="list-style: none;">
-                        <li id="planoA">
-                            70MB
+                        <li id="planoX">
+                            <img src="imagens/70mega.png" width="200px" height="200px" alt="">
                         </li>
-                        <li id="valorA">
-                            <div >
-                                <span class="option">g</span>
-                                <br>
-                                <span class="cifao"><sup>R$</sup>
-                                    <span class="reais">49,90
-                                        <span class="mes"><sub>/mês</sub></span>
-                            </div>
-                        </li>
-                        <li id="beneficios">
-                            +R$5,00
-                            <br>
-                            <img src="imagens/paramountw.png" width="100px" alt="paramount">
-                            <br>
-                            <img src="imagens/watch.png" width="80px" alt="watch">
-                        </li>
+                        
+                    
                         <ul id="especificacoes">
                             Quatro
                         </ul>
                     </ul>
                 </article>
-                <article class="planoB">
+                <article class="planoA">
                     <ul class="mensalidade" style="list-style: none;">
-                        <li id="planoA">
-                            100MB
+                        <li id="planoX">
+                            <img src="imagens/100mega.png" width="200px" height="200px" alt="">
                         </li>
-                        <li id="valorA">
-                            <div class="mensalidade">
-                                <span class="option">g</span>
-                                <br>
-                                <span class="cifao"><sup>R$</sup>
-                                    <span class="reais">59,90
-                                        <span class="mes"><sub>/mês</sub></span>
-                            </div>
-                        </li>
-                        <li id="beneficios">
-                            +R$5,00
-                            <br>
-                            <img src="imagens/paramount.png" width="100px" alt="paramount">
-                            <br>
-                            <img src="imagens/watch.png" width="80px" alt="watch">
-                        </li>
-                        <li id="especificacoes">
+                        
+                    
+                        <ul id="especificacoes">
                             Quatro
-                        </li>
+                        </ul>
                     </ul>
                 </article>
-                <article class="planoC">
+
+                <article class="planoA">
                     <ul class="mensalidade" style="list-style: none;">
-                        <li id="planoA">
-                            150MB
+                        <li id="planoX">
+                            <img src="imagens/150mega.png" width="200px" height="200px" alt="">
                         </li>
-                        <li id="valorA">
-                            <div >
-                                <span class="option">g</span>
-                                <br>
-                                <span class="cifao"><sup>R$</sup>
-                                    <span class="reais">79,90
-                                        <span class="mes"><sub>/mês</sub></span>
-                            </div>
-                        </li>
-                        <li id="beneficios">
-                            GRÁTIS
-                            <br>
-                            <img src="imagens/paramount.png" width="100px" alt="paramount">
-                            <br>
-                            <img src="imagens/watch.png" width="80px" alt="watch">
-                        </li>
-                        <li id="especificacoes">
+                        
+                    
+                        <ul id="especificacoes">
                             Quatro
-                        </li>
+                        </ul>
                     </ul>
                 </article>
-                <article class="planoD">
+
+                <article class="planoA">
                     <ul class="mensalidade" style="list-style: none;">
-                        <li id="planoD">
-                            200MB
+                        <li id="planoX">
+                            <img src="imagens/200mega.png" width="200px" height="200px" alt="">
                         </li>
-                        <li id="valorA">
-                            <div>
-                                <span class="option">g</span>
-                                <br>
-                                <span class="cifao"><sup>R$</sup>
-                                    <span class="reais">99,90
-                                        <span class="mes"><sub>/mês</sub></span>
-                            </div>
-                        </li>
-                        <li id="beneficios">
-                            GRÁTIS
-                            <br>
-                            <img src="imagens/paramount.png" width="100px" alt="paramount">
-                            <br>
-                            <img src="imagens/watch.png" width="80px" alt="watch">
-                        </li>
-                        <li id="especificacoes">
+                        
+                    
+                        <ul id="especificacoes">
                             Quatro
-                        </li>
+                        </ul>
                     </ul>
                 </article>
-                <article class="planoE">
+
+                <article class="planoA">
                     <ul class="mensalidade" style="list-style: none;">
-                        <li id="planoD">
-                            300MB
+                        <li id="planoX">
+                            <img src="imagens/300mega.png" width="200px" height="200px" alt="">
                         </li>
-                        <li id="valorA">
-                            <div>
-                                <span class="option">g</span>
-                                <br>
-                                <span class="cifao"><sup>R$</sup>
-                                    <span class="reai">119,90
-                                        <span class="mes"><sub>/mês</sub></span>
-                            </div>
-                        </li>
-                        <li id="beneficios">
-                            GRÁTIS
-                            <br>
-                            <img src="imagens/paramount.png" width="100px" alt="paramount">
-                            <br>
-                            <img src="imagens/watch.png" width="80px" alt="watch">
-                        </li>
-                        <li id="especificacoes">
+                        
+                    
+                        <ul id="especificacoes">
                             Quatro
-                        </li>
+                        </ul>
                     </ul>
                 </article>
-                <article class="planoF">
+
+                <article class="planoA">
                     <ul class="mensalidade" style="list-style: none;">
-                        <li id="planoD">
-                            500MB
+                        <li id="planoX">
+                            <img src="imagens/500mega.png" width="200px" height="200px" alt="">
                         </li>
-                        <li id="valorA">
-                            <div>
-                                <span class="option">g</span>
-                                <br>
-                                <span class="cifao"><sup>R$</sup>
-                                    <span class="reai">149,90
-                                        <span class="mes"><sub>/mês</sub></span>
-                            </div>
-                        </li>
-                        <li id="beneficios">
-                            GRÁTIS
-                            <br>
-                            <img src="imagens/paramount.png" width="100px" alt="paramount">
-                            <br>
-                            <img src="imagens/watch.png" width="80px" alt="watch">
-                        </li>
-                        <li id="especificacoes">
+                        
+                    
+                        <ul id="especificacoes">
                             Quatro
-                        </li>
+                        </ul>
                     </ul>
                 </article>
             </section>
+            <h3 id="meio" style="font-family: var(--fonte-padrao);font-size: 100%; text-indent: 20px; letter-spacing: 1px; font-weight: inherit;">
+             <div>
+                <img src="imagens/imagem2.jpg" width="400px" height="100%">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, atque id delectus, fugiat aliquam aperiam culpa rerum numquam ducimus repellat, qui beatae? Vitae cumque mollitia libero natus maxime, ea nam?</p>
+            <div>
+                <img src="imagens/imagem1.jpg" width="400px" height="100%" alt="" style="position: relative;  margin: -500px 10px 10px 700px;">
+            </div>
+        </h3>
         </div>
     </main>
     <aside>
 
     </aside>
-    <footer style="padding: 5%; background-color: #590D8C; color: white;">
+    <footer style="padding: 5%; background-color: #030e00; color: white;">
         AQUI SERÁ O RODAPÉ
     </footer>
 
