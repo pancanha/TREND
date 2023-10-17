@@ -38,7 +38,7 @@ a.externo::after {
 }
 
 main p {
-    margin: 00px 0px;
+    margin: 0px 0px;
     text-align: justify;
     
 }
@@ -94,7 +94,8 @@ nav > a {
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.4;
-    margin-left: 200px;
+    margin-left: 20px;
+    
 }
 
 nav > a:hover {
