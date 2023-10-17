@@ -85,6 +85,7 @@ nav {
     background-color: white;
     padding: 10px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.37);
+    text-align: center;
 }
 
 nav > a {
@@ -92,15 +93,16 @@ nav > a {
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     transition-duration: 0.4;
-    margin-left: 20px;
+    margin-left: 2px;
+    
     
 }
 
 nav > a:hover {
-    background-color: var(--cor3);
-    color: var(--cor5);
+    background-color: var(--cor1);
+    color: white;
 
 }
 
@@ -117,10 +119,15 @@ main {
 
 }
 main h1 {
-    color: var(--cor5);
     font-family: var(--fonte-android);
-    font-weight: normal;
+    font-weight: 600;
     font-size: 1.8em;
+    font-size: 36px;
+    max-height: 200px;
+    max-width: 1800px;
+    padding: 100px 1px 100px 1px;
+
+    
 }
 
 main h2 {
@@ -149,11 +156,8 @@ main strong {
 main a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor5);
-    background-color: var(--cor1);
-    padding: 2px 6px;
-    
-    
+    color: black;
+    padding: 2px 2px;   
 }
 
 main a:hover {
