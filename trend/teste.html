@@ -1,17 +1,16 @@
-/* Older browsers */
-html { font-size: 16px; }
+<!DOCTYPE html>
+<div class="box">
+    <img src="https://pm1.narvii.com/6759/bcd6c5c19f07cd76b023bd0716f3e4f88887c0f9v2_128.jpg"/>
+    <span> Titulo da primeira imagem </span>
+</div>
+<div class="box">
+    <img src="https://pm1.narvii.com/6759/bcd6c5c19f07cd76b023bd0716f3e4f88887c0f9v2_128.jpg"/>
+    <span> Titulo da segunda imagem </span>
+</div>
 
-/* Modern browsers only need this one */
-
-@media screen and (min-width: 25em){
-  html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+<style>
+div.box {
+	width: 150px;
+	display: inline-block;
 }
-
-/* Safari <8 and IE <11 */
-@media screen and (min-width: 25em){
-  html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
-}
-@media screen and (min-width: 50em){
-
-html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
-}
+</style>
