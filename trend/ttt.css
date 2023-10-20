@@ -166,10 +166,11 @@ main img.pequena {
 }
 div.video {
     background-color: var(--cor5);
-    margin: 0px -20px 30px -20px;
-    margin: 0px -20px;
-    padding: 20px;
-    display:;
+    margin:auto;
+    margin: 0px 20px;
+    padding: 2px;
+    margin-left: -230px;
+    
     
     
 
@@ -180,10 +181,10 @@ div.video > iframe {
     position: relative;
     top: 5%;
     left: 37%;
-    width: 21%;
+    width: 19%;
     height: 88%;
-    min-width: 410px;
-    min-height: 730px;
+    min-width: 400px;
+    min-height: 710px;
     
 }
 
