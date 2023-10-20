@@ -165,14 +165,10 @@ main img.pequena {
     margin: auto;
 }
 div.video {
-    background-color: var(--cor5);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
     margin:auto;
     padding: 20px;
     margin-left: -250px;
-    
-    
-    
-
     position: relative;
 }
 
