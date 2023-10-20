@@ -169,17 +169,22 @@ div.video {
     margin: 0px -20px 30px -20px;
     margin: 0px -20px;
     padding: 20px;
-    padding-bottom: 58.6%;
+    display:;
+    
+    
 
     position: relative;
 }
 
 div.video > iframe {
-    position: absolute;
+    position: relative;
     top: 5%;
     left: 37%;
-    width: 29%;
+    width: 21%;
     height: 88%;
+    min-width: 410px;
+    min-height: 730px;
+    
 }
 
 aside {
