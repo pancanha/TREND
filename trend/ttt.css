@@ -167,9 +167,8 @@ main img.pequena {
 div.video {
     background-color: var(--cor5);
     margin:auto;
-    margin: 0px 20px;
-    padding: 2px;
-    margin-left: -230px;
+    padding: 20px;
+    margin-left: -240px;
     
     
     
