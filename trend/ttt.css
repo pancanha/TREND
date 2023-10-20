@@ -36,14 +36,9 @@ body {
     background-color: #E7E8EB;
 }
 
-a.externo::after {
-    content: '\00A0\1F517';
-}
-
 main p {
     margin: 0px 0px;
-    text-align: justify;
-    
+    text-align: justify;  
 }
 
 header {
@@ -58,13 +53,13 @@ header {
 
 header>h1 {
     color: white;
-    
     font-family: var(--fonte-destaque);
     margin-bottom: 0px;
     font-size: 3em;
     font-weight: normal;
-    margin-bottom: 0px;
+    margin-bottom: px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    margin-top: -40px;
     
     
     
@@ -96,7 +91,7 @@ nav > a {
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight:bolder;
     transition-duration: 0.4;
     margin-left: 2px;
     
@@ -169,7 +164,7 @@ div.video {
     background-image: linear-gradient(to right, var(--cor1), transparent);
     margin:auto;
     padding: 20px;
-    margin-left: -250px;
+    margin-left: -240px;
     position: relative;
 }
 
@@ -181,6 +176,7 @@ div.video > iframe {
     height: 88%;
     min-width: 400px;
     min-height: 710px;
+    margin-bottom: -20px;
     
 }
 
