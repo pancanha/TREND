@@ -49,7 +49,7 @@ header {
     background-image: linear-gradient(to left, var(--cor5), var(--cor0),var(--cor5)) ;
     min-height: 150px;
     text-align: center;
-    padding-top: 40px;
+    padding-bottom: 0px;
 
 
 }
