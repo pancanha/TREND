@@ -25,6 +25,7 @@
     --cor9: #BF1F94;
     --cor10:#E7E8EB;
     --cor11:#1D2744;
+    --cor12:#0442BF;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue';
@@ -103,7 +104,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color:#1D2744;
+    background-color:var(--cor12);
     color: white;
 
 }
