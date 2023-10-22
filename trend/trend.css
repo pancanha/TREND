@@ -91,7 +91,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color:var(--cor12);
+    background-color:var(--cor5);
     color: white;
 
 }
@@ -141,7 +141,7 @@ main a {
 
 main a:hover {
     text-decoration: underline;
-    color: var(--cor4);
+    color: var(--cor3);
 }
 main img {
     width: 100%;
@@ -156,7 +156,7 @@ div.video {
     background-image: linear-gradient(to right, var(--cor0), transparent);
     margin:auto;
     padding: 20px;
-    margin-left: -250px;
+    margin-left: -245px;
     position: relative;
     
 }
