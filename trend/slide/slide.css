@@ -1,4 +1,24 @@
 
+
+:root {
+    --cor0: #078C03 ;
+    --cor1: #0DF205;
+    --cor2: #05F258;
+    --cor3: #0BD904;
+    --cor4: #0460D9;
+    --cor5: #0442BF;
+    --cor6: #0439D9;
+    --cor7: #044BD9;
+    --cor8: #F29F05;
+    --cor9: #F20505;
+    --cor10:#E7E8EB;
+    --cor11:#1D2744;
+    --cor12:#0442BF;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue';
+    --fonte-android: 'fontelogo';
+}
 section.slider{
     margin: 0 auto;
     width: 100%;
@@ -38,7 +58,7 @@ section.slider{
 }
 
 .nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid #ff0054;
+    border: 1px solid var(--cor0);
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -50,11 +70,11 @@ section.slider{
 }
 
 .nav-manual .manual-btn:hover{
-    background-color: #ff0054;
+    background-color: var(--cor0);
 }
 
 #radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
-    background-color: #ff0054;
+    background-color: va;
 }
 
 #radio1:checked ~ .primeiro{
