@@ -42,15 +42,11 @@ main p {
 }
 
 header {
-    background-image: linear-gradient(to top , var(--cor3), var(--cor0),var(--cor0)) ;
+    background-image: linear-gradient(to left , var(--cor1), var(--cor3),var(--cor0)) ;
     min-height: 150px;
     text-align: center;
     padding-bottom: 0px;
-
-
 }
-
-
 header>h1 {
     color: white;
     font-family: var(--fonte-destaque);
@@ -59,12 +55,8 @@ header>h1 {
     font-weight: normal;
     margin-bottom: px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    margin-top: -40px;
-    
-    
-    
+    margin-top: -40px;  
 }
-
 header>p {
     color: white;
     font-family: var(--fonte-padrao);
