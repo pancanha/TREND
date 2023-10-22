@@ -42,7 +42,7 @@ main p {
 }
 
 header {
-    background-image: linear-gradient(to left , var(--cor1), var(--cor3),var(--cor0)) ;
+    background-image: linear-gradient(to right , #08af02, var(--cor0),#08af02) ;
     min-height: 150px;
     text-align: center;
     padding-bottom: 0px;
@@ -55,7 +55,7 @@ header>h1 {
     font-weight: normal;
     margin-bottom: px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    margin-top: -40px;  
+    margin-top: -70px;  
 }
 header>p {
     color: white;
@@ -153,7 +153,7 @@ main img.pequena {
     margin: auto;
 }
 div.video {
-    background-image: linear-gradient(to right, var(--cor8), transparent);
+    background-image: linear-gradient(to right, var(--cor0), transparent);
     margin:auto;
     padding: 20px;
     margin-left: -240px;
