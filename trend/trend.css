@@ -156,7 +156,7 @@ div.video {
     background-image: linear-gradient(to right, var(--cor0), transparent);
     margin:auto;
     padding: 20px;
-    margin-left: -240px;
+    margin-left: -250px;
     position: relative;
     
 }
