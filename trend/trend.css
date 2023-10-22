@@ -42,7 +42,7 @@ main p {
 }
 
 header {
-    background-image: linear-gradient(to bottom , var(--cor0),var(--cor0),#0ab404) ;
+    background-image: linear-gradient(to bottom , var(--cor0),var(--cor0),var(--cor0),#0ab404) ;
     min-height: 150px;
     text-align: center;
     padding-bottom: 0px;
