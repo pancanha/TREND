@@ -8,6 +8,9 @@
     <title>TREND Connect+</title>
     <link rel="stylesheet" href="ttt.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
+    <script src="slide.js" defer></script>
 
     <style>
         #todosPlanos {
@@ -88,7 +91,43 @@
         <a href="#">CONTATOS</a>
         <a href="#">QUEM SOMOS</a>
         <a href="#">MAIS+</a>
-    </nav> <img src="imagens/LOGO-DA-NET azul.png" alt="trendbanner" width="100%" height="100%">
+    </nav> 
+    <section class="slider">
+        <div class="slider-content">
+            
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="imagens/LOGO-DA-NET.png" alt="slide 1">
+                <img class="img-mobile" src="img/slide-1-mob.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="imagens/TREND-BANNER.png" alt="slide 3">
+                <img class="img-mobile" src="img/slide-2-mob.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="imagens/LOGO-DA-NET.png" alt="slide 3">
+                <img class="img-mobile" src="img/slide-3-mob.jpg" alt="slide 3">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </section>
 
 
     <h1 id="meio"
@@ -149,7 +188,7 @@
     </style>
     
     <div class="video">
-        <iframe style="border-radius: 30px;" width="560" height="315" src="videos/video-trend.mp4"
+        <iframe style="border-radius: 30px;" width="560" height="315" src="videos/video-trend.mp"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
