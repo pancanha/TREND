@@ -202,8 +202,10 @@ footer {
     color: white;
     text-align: center;
     font-size: 0.8em;
-    padding: 200px;
-    display:flex;
+    padding: 20px;
+    
+    
+    
 }
 
 footer a {
