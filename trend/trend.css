@@ -191,13 +191,19 @@ aside h3 {
     
 }
 
-
+.logofooter{
+    margin-top: -100px;
+}
+footer>span{
+   
+}
 footer {
-    background-color: var(--cor5);
+    background-color: var(--cor11);
     color: white;
     text-align: center;
     font-size: 0.8em;
-    padding: 5px;
+    padding: 200px;
+    display:flex;
 }
 
 footer a {
@@ -211,6 +217,6 @@ footer a:hover {
     color: var(--cor1);
 }
 .rodape {
-    background-color: white;
-    margin-left: 10px;
+    
+    
 }
