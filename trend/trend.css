@@ -142,7 +142,7 @@ main img {
 }
 
 div.video {
-    background-image: linear-gradient(to right, #3d8a3b , transparent);
+    background-image: linear-gradient(to bottom, #3d8a3b , transparent);
     margin:auto;
     padding: 20px;
     margin-left: -245px;
@@ -166,7 +166,7 @@ div.video > iframe {
 aside {
     background-color: var(--cor0);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 0px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.473);
     margin-top: 15px;
 }
