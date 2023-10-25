@@ -103,23 +103,14 @@ main {
     min-width: 300px;
     max-width: 3200px;
     margin: auto;
-    padding: 20px;
-    background-color: white;
+    padding: 2px;
+    background-color: var(--cor0);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
 
 }
 
-
-main h2 {
-    font-family: var(--fonte-android);
-    color: var(--cor4);
-    font-size: 1.3em;
-    font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
-    text-indent: 8px;
-}
 
 main p {
     margin: 10px 0px;
@@ -144,19 +135,14 @@ main a {
 
 main a:hover {
     text-decoration: underline;
-    color: var(--cor3);
+    color: #1E3C45;
 }
 main img {
     width: 100%;
 }
 
-main img.pequena {
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
 div.video {
-    background-image: linear-gradient(to right, var(--cor0), transparent);
+    background-image: linear-gradient(to right, #3d8a3b , transparent);
     margin:auto;
     padding: 20px;
     margin-left: -245px;
