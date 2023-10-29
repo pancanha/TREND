@@ -166,25 +166,9 @@ div.video > iframe {
 aside {
     background-color: var(--cor0);
     padding: 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.473);
     margin-top: 15px;
-}
-
-aside h3 {
-    background-color: var(--cor0);
-    color: white;
-    padding: 10px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px;
-    
-}
-
-.logofooter{
-    margin-top: -100px;
-}
-footer>span{
-   
 }
 footer {
     background-color: var(--cor11);
@@ -225,7 +209,7 @@ footer a:hover {
     top: 0;
     right: 0;
     z-index: -1;
-    background-color: var(--cor3);
+    background-image: linear-gradient(to right, var(--cor0), #0bca04);
     border-radius: 5px;
      box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
      7px 7px 20px 0px rgba(0,0,0,.1),
@@ -246,6 +230,7 @@ footer a:hover {
     margin: 2px;
     text-align: center;
     
+    
   }
   .custom-btn {
     width: 250px;
@@ -254,7 +239,7 @@ footer a:hover {
     border-radius: 5px;
     
     font-family: 'Lato', sans-serif;
-    font-weight: 500;
+    font-weight: bolder;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
