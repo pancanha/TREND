@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+h1 {
+    font-size: 24px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    background-color: #007bff;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa {
+    font-size: 24px;
+}
+
+:root {
+--icon-size: 60px;
+--border-radius: 0.5;
+--background: #2d2c3e;
+--background-b: #2d2c3e;
+--green: #16A085;
+--red: #C82647;
+--green-l: #8CC63F;
+--orange: #EB9532;
+--purple: #7E3661;
+--white: #FFFFFF;
+}
+
+
+.icon-container {
+margin-top: 30px;
+width: 100%;
+height: var(--icon-size);
+}
+
+.icon {
+cursor: pointer;
+position: relative;
+display: inline-block;
+width: var(--icon-size);
+height: var(--icon-size);
+margin-left: calc(var(--icon-size) / 5);
+margin-right: calc(var(--icon-size) / 5);
+border-radius: calc(var(--icon-size) * var(--border-radius));
+overflow: hidden;
+}
+
+.icon::before,
+.icon::after {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+transition: all 0.25s ease;
+border-radius: calc(var(--icon-size) * var(--border-radius));
+}
+
+.icon i {
+position: relative;
+color: var(--white);
+font-size: calc(var(--icon-size) / 2);
+margin-top: calc(var(--icon-size) / 4);
+transition: all 0.25s ease;
+}
+
+.icon-fill::before {
+transition-duration: 0.5s;
+box-shadow: inset 0 0 0 1px var(--green);
+}
+
+.icon-fill:hover::before {
+box-shadow: inset 0 0 0 var(--icon-size) var(--green);
+}
+
+.icon-enter::after {
+box-shadow: inset 0 0 0 1px var(--orange);
+}
+
+.icon-enter::before {
+border-radius: 0;
+margin-left: -100%;
+box-shadow: inset 0 0 0 var(--icon-size) var(--orange);
+}
+
+.icon-enter:hover::before {
+margin-left: 0;
+}
+
+.icon-expand::after {
+box-shadow: inset 0 0 0 1px var(--red);
+}
+
+.icon-expand::before {
+background: var(--red);
+box-shadow: inset 0 0 0 var(--icon-size) var(--background);
+}
+
+.icon-expand:hover::before {
+box-shadow: inset 0 0 0 1px var(--background);
+}
+
+.icon-collapse::before {
+border-radius: 0;
+}
+
+.icon-collapse:hover::before {
+box-shadow: inset 0 calc(var(--icon-size) / 2) 0 0 var(--green-l),
+      inset 0 calc(var(--icon-size) / -2) 0 0 var(--green-l);
+}
+
+.icon-collapse::after {
+box-shadow: inset 0 0 0 1px var(--green-l);
+}
+
+.icon-rotate {
+box-shadow: inset 0 0 0 1px var(--purple);
+}
+
+.icon-rotate::after,
+.icon-rotate::before {
+border: 0px solid transparent;
+}
+
+.icon-rotate:hover::before {
+transition: border-top-width 0.3s ease, border-top-color 0.3s ease;
+border-width: var(--icon-size);
+border-top-color: var(--purple);
+}
+
+.icon-rotate:hover::after {
+transition: border-left-width 0.3s ease, border-left-color 0.3s ease;
+border-width: var(--icon-size);
+border-left-color: var(--purple);
+}
+
+.icon-rotate:hover {
+transition: background 0.001s ease 0.3s;
+background: var(--purple);
+}
+
+.icon i {
+z-index: 1;
+}
