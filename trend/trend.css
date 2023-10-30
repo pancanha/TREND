@@ -7,13 +7,14 @@
     src: url('fontes/abnes/abnes.otf') format('opentype');
     font-weight: normal;
 }
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
 :root {
-    --cor0: #078C03 ;
+    --cor0: #078C03;
     --cor1: #0DF205;
     --cor2: #05F258;
     --cor3: #0BD904;
@@ -23,30 +24,29 @@
     --cor7: #044BD9;
     --cor8: #F29F05;
     --cor9: #F20505;
-    --cor10:#E7E8EB;
-    --cor11:#1D2744;
-    --cor12:#0442BF;
+    --cor10: #E7E8EB;
+    --cor11: #1D2744;
+    --cor12: #0442BF;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue';
     --fonte-android: 'fontelogo';
 }
+
 body {
     font-family: var(--fonte-padrao);
     background-color: #E7E8EB;
 }
 
-main p {
-    margin: 0px 0px;
-    text-align: justify;  
-}
+
 
 header {
-    background-image: linear-gradient(to bottom , var(--cor0),var(--cor0),var(--cor0),#0ab404) ;
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor0), var(--cor0), #0ab404);
     min-height: 150px;
     text-align: center;
     padding-bottom: 0px;
 }
+
 header>h1 {
     color: white;
     font-family: var(--fonte-destaque);
@@ -55,8 +55,9 @@ header>h1 {
     font-weight: normal;
     margin-bottom: px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    margin-top: -70px;  
+    margin-top: -70px;
 }
+
 header>p {
     color: white;
     font-family: var(--fonte-padrao);
@@ -76,29 +77,29 @@ nav {
     padding: 10px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.37);
     text-align: center;
-    
+
 }
 
-nav > a {
+nav>a {
     color: rgb(15, 59, 4);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
-    font-weight:bolder;
+    font-weight: bolder;
     transition-duration: 0.4;
     margin-left: 2px;
     position: relative;
     display: inline-block;
-    
-    
+
+
 }
 
-nav > a:hover {
-    background-color:var(--cor5);
+nav>a:hover {
+    background-color: var(--cor5);
     color: white;
 
 }
-
+/*---------------------------MEIO-----------------------*/
 main {
     min-width: 300px;
     max-width: 3200px;
@@ -106,11 +107,14 @@ main {
     padding: 2px;
     background-color: var(--cor0);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
-    border-bottom-left-radius: 10px;
-   
+    border-radius: 0px 0px 15px 15px;
+
 
 }
-
+main p {
+    margin: 0px 0px;
+    text-align: justify;
+}
 
 main p {
     margin: 10px 0px;
@@ -123,44 +127,23 @@ main p {
 main strong {
     color: var(--cor4);
     font-weight: bold;
-    
+
 }
 
 main a {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    padding: 2px 2px;   
+    padding: 2px 2px;
 }
 
 main a:hover {
     text-decoration: underline;
     color: #1E3C45;
 }
+
 main img {
     width: 100%;
-}
-
-div.video {
-    background-image: linear-gradient(to bottom, #3d8a3b , transparent);
-    margin:auto;
-    padding: 20px;
-    margin-left: -245px;
-    position: relative;
-    
-}
-
-div.video > iframe {
-    position: relative;
-    top: 5%;
-    left: 37%;
-    width: 17%;
-    height: 88%;
-    min-width: 400px;
-    min-height: 710px;
-    margin-bottom: -20px;
-    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.479);
-    
 }
 
 aside {
@@ -170,6 +153,191 @@ aside {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.473);
     margin-top: 15px;
 }
+/*-------------------------------VIDEO-------------------------*/
+div.video {
+    background-image: linear-gradient(to bottom, #3d8a3b, transparent);
+    margin: auto;
+    padding: 20px;
+    margin-left: -245px;
+    position: relative;
+
+}
+
+div.video>iframe {
+    position: relative;
+    top: 5%;
+    left: 37%;
+    width: 17%;
+    height: 88%;
+    min-width: 400px;
+    min-height: 710px;
+    margin-bottom: -20px;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.479);
+
+}
+
+
+/*---------------------PARTE DA MULHER E TEXTO-------------------------------*/
+.imgMulher>img {
+    margin-top: -100%;
+    max-width: 320px;
+
+
+}
+
+#meio {
+    max-width: 2900px;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 220px;
+    text-align: left;
+}
+
+/*---------------------PLANOS-------------------------------*/
+#todosPlanos {
+    padding: 4%;
+    text-align: center;
+    background-color: #60B852;
+    margin: 0px;
+
+}
+
+.planoA {
+    display: inline-block;
+    margin: center;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 11px;
+    box-shadow: 1px 2px 10px 0px;
+}
+
+
+
+#especificacoes {
+    padding: 2px 1px 5px 1px;
+
+}
+
+.mensalidade {
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 2px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+/*---------------------MENU-------------------------------*/
+.menu {
+    width: 100%;
+    display: inline-block;
+}
+
+.menu nav a {
+    color: var(--cor0);
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.menu nav a::after {
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, var(--cor0), var(--cor1));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.7s;
+}
+
+.menu nav a:hover::after {
+    width: 100%;
+}
+
+.menu nav a:hover {
+    color: #ffffff;
+}
+/*---------------------TEXTO ANTES DOS PLANOS-------------------------------*/
+#escolha {
+    background-color: ;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#escolha1 {
+    background-color: ;
+    color: rgb(119, 128, 136);
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 48px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*-----------------------IMAGEM PARAMOUNT E WATCH-------------------------------*/
+#imgPW {
+    text-align: center;
+}
+/*-----------------------ANTES DO RODAPÉ-------------------------------*/
+
+.wifiback {
+            
+    text-align: center;
+    background-color: #60B852;
+    margin-left: 0px;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+div.wifi { 
+     /* text-align: left; */ 
+    display: inline-block;
+    margin-left: 20px; /* Centraliza o bloco horizontalmente */ 
+    margin-right: 10px;
+    max-width: 400px;
+    
+}
+
+/*-----------------------RODAPÉ-------------------------------*/
+div.rodape {
+    margin-top: 0px;
+    max-width: 300px;
+    display: inline-block;
+    margin-right: 00px;
+
+}
+
+div.contatos {
+    max-width: 250px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+div.endereco {
+    max-width: 300px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.imgrodape {
+    position: relative;
+}
+
 footer {
     background-color: var(--cor11);
     color: white;
@@ -177,17 +345,14 @@ footer {
     font-size: 0.8em;
     padding: 50px;
     margin-top: 10px;
-    
-    
-    
 }
 
 footer a {
     color: white;
     font-weight: bolder;
     text-decoration: none;
-
 }
+
 footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
@@ -196,12 +361,13 @@ footer a:hover {
 /*------------BOTÃO--------------------*/
 
 
-        /* 15 */
+/* 15 */
 .btn-15 {
     border: none;
     z-index: 1;
-  }
-  .btn-15:after {
+}
+
+.btn-15:after {
     position: absolute;
     content: "";
     width: 0;
@@ -211,33 +377,38 @@ footer a:hover {
     z-index: -1;
     background-image: linear-gradient(to right, var(--cor0), #0bca04);
     border-radius: 5px;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
     transition: all 0.3s ease;
-  }
-  .btn-15:hover {
+}
+
+.btn-15:hover {
     color: #ffffff;
-  }
-  .btn-15:hover:after {
+}
+
+.btn-15:hover:after {
     left: 0;
     width: 100%;
-  }
-  .btn-15:active {
+}
+
+.btn-15:active {
     top: 2px;
-  }
-  button {
+}
+
+button {
     margin: 2px;
     text-align: center;
-    
-    
-  }
-  .custom-btn {
+
+
+}
+
+.custom-btn {
     width: 250px;
     height: 40px;
     color: #fff;
     border-radius: 5px;
-    
+
     font-family: 'Lato', sans-serif;
     font-weight: bolder;
     background: transparent;
@@ -245,8 +416,8 @@ footer a:hover {
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
-  }
+}
