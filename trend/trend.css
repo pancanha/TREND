@@ -72,34 +72,7 @@ header>p {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
-nav {
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.37);
-    text-align: center;
-    
 
-}
-
-nav>a {
-    color: rgb(15, 59, 4);
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bolder;
-    transition-duration: 0.4;
-    margin-left: 20px;
-    position: relative;
-    display: inline-block;
-
-
-}
-
-nav>a:hover {
-   background-color: var(--cor5);
-    color: white;
-
-}
 /*---------------------------MEIO-----------------------*/
 main {
     min-width: 300px;
@@ -230,9 +203,39 @@ div.video>iframe {
     margin: auto;
 }
 /*---------------------MENU-------------------------------*/
+
+nav {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.37);
+    text-align: center;
+    
+
+}
+
+nav>a {
+    color: rgb(15, 59, 4);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.4;
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+
+
+}
+
+nav>a:hover {
+   background-color: var(--cor5);
+    color: white;
+
+}
 .menu {
     width: 100%;
     display: inline-block;
+    
 }
 
 .menu nav a {
@@ -241,6 +244,7 @@ div.video>iframe {
     font-size: 18px;
     padding-bottom: 8px;
     position: relative;
+    
 }
 
 .menu nav a::after {
@@ -349,13 +353,13 @@ footer {
 
 footer a {
     color: white;
-    font-weight: bolder;
+    
     text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline;
-    color: var(--cor1);
+    text-decoration: solid;
+    color: green;
 }
 
 /*------------BOTÃO--------------------*/
