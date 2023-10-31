@@ -25,7 +25,7 @@
     --cor8: #F29F05;
     --cor9: #F20505;
     --cor10: #E7E8EB;
-    --cor11: #1D2744;
+    --cor11: #02054b;
     --cor12: #0442BF;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
@@ -71,6 +71,49 @@ header>p {
 
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
+/*---------------------------Abaixo do Banner-----------------------*/
+.AbaixoDoBanner{
+    background-image: linear-gradient(to top, #0460D9, #0451B5,#0460D9);
+    padding: 100px;
+    margin-top: 100px;
+    max-width: 100%;
+    
+    border-radius: 10px;
+    border-color: #ffffff;
+
+}
+/* 1 */
+.ImgBotao{
+    width: 70px;
+    margin-left:30px;
+   
+    text-align: center;
+    
+
+}
+.BotaoUm {
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    margin: center;
+    margin-left: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 60px;
+    /*box-shadow: 1px 2px 10px 0px;*/
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+    color: #ffffff;
+    
+    
+
+  }
+  .BotaoUm:hover {
+    
+  }
+.BotaoDois{
+    padding: 10px 3px 10px 3px;
+}
 
 
 /*---------------------------MEIO-----------------------*/
@@ -79,7 +122,7 @@ main {
     max-width: 3200px;
     margin: auto;
     padding: 2px;
-    background-color: var(--cor0);
+    background-color: var(--cor0); 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
     border-radius: 0px 0px 15px 15px;
 
