@@ -17,12 +17,12 @@
     --cor0: #078C03;
     --cor1: #0DF205;
     --cor2: #05F258;
-    --cor3: #0BD904;
+    --cor3: #60B852;
     --cor4: #0460D9;
     --cor5: #0442BF;
     --cor6: #0439D9;
     --cor7: #044BD9;
-    --cor8: #F29F05;
+    --cor8: #D98D04;
     --cor9: #F20505;
     --cor10: #E7E8EB;
     --cor11: #02054b;
@@ -73,48 +73,95 @@ header>p {
 }
 /*---------------------------Abaixo do Banner-----------------------*/
 .AbaixoDoBanner{
+    max-width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    background-image: linear-gradient(to top, #0460D9, #0451B5,#0460D9);
+    padding: 100px;
+    
+}
+
+.AbaixoDoBanne{
     background-image: linear-gradient(to top, #0460D9, #0451B5,#0460D9);
     padding: 100px;
     margin-top: 100px;
     max-width: 100%;
-    
+    display: flex;
     border-radius: 10px;
     border-color: #ffffff;
+    
 
 }
 /* 1 */
 .ImgBotao{
-    width: 70px;
-    margin-left:30px;
-   
-    text-align: center;
-    
-
+    margin-bottom: -10px;
 }
-.BotaoUm {
+ .BotaoUm{
     display: inline-block;
-    padding: 10px 40px 10px 40px;
-    margin: center;
-    margin-left: 50%;
-    border-width: 5px;
+    max-width: 400px;
+     
+    
+    border-width: 5px; 
     border-style: solid;
-    border-color: #ffffff;
+    border-color: rgb(255, 255, 255);
     border-radius: 60px;
     /*box-shadow: 1px 2px 10px 0px;*/
     font-family: var(--fonte-padrao);
     font-size: 1.3em;
     color: #ffffff;
+    padding: 10px;
+}
+ .BotaoDois{
     
-    
-
-  }
-  .BotaoUm:hover {
-    
-  }
-.BotaoDois{
-    padding: 10px 3px 10px 3px;
+    margin-top: 20px;
+    display: inline-block;
+    max-width: 400px;
+    border-width: 5px; 
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 60px;
+    /*box-shadow: 1px 2px 10px 0px;*/
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+    color: #ffffff;
+    padding: 10px;
 }
 
+.BotaoU {
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    margin: center;
+    margin-left: 30%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1CD904;
+    border-radius: 60px;
+    /*box-shadow: 1px 2px 10px 0px;*/
+    font-family: var(--fonte-padrao);
+    font-size: 2.3em;
+    color: #ffffff;
+    max-width: 300px;
+  }
+  
+.BotaoDoi{
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    margin: center;
+    margin-left: 30%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--cor8);
+    border-radius: 60px;
+    /*box-shadow: 1px 2px 10px 0px;*/
+    font-family: var(--fonte-padrao);
+    font-size: 2.3em;
+    color: #ffffff;
+    max-width: 300px;
+  }
+
+.BotaoUm:hover {
+    
+}
 
 /*---------------------------MEIO-----------------------*/
 main {
