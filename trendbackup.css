@@ -17,15 +17,15 @@
     --cor0: #078C03;
     --cor1: #0DF205;
     --cor2: #05F258;
-    --cor3: #0BD904;
+    --cor3: #60B852;
     --cor4: #0460D9;
     --cor5: #0442BF;
     --cor6: #0439D9;
     --cor7: #044BD9;
-    --cor8: #F29F05;
+    --cor8: #D98D04;
     --cor9: #F20505;
     --cor10: #E7E8EB;
-    --cor11: #1D2744;
+    --cor11: #02054b;
     --cor12: #0442BF;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
@@ -71,43 +71,110 @@ header>p {
 
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
-
-nav {
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.37);
+/*---------------------------Abaixo do Banner-----------------------*/
+.AbaixoDoBanner{
+    max-width: 100%;
+    margin-top: 100px;
     text-align: center;
-
+    background-image: linear-gradient(to top, #0460D9, #0451B5,#0460D9);
+    padding: 100px;
+    
 }
 
-nav>a {
-    color: rgb(15, 59, 4);
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bolder;
-    transition-duration: 0.4;
-    margin-left: 2px;
+.AbaixoDoBanne{
+    background-image: linear-gradient(to top, #0460D9, #0451B5,#0460D9);
+    padding: 100px;
+    margin-top: 100px;
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    border-color: #ffffff;
+    
+
+}
+/* 1 */
+.ImgBotao{
+    margin-bottom: -15px;
+}
+ .BotaoUm{
     position: relative;
     display: inline-block;
-
-
+    max-width: 300px;
+     margin: 0,auto;
+     padding: 0,auto;
+    
+    border-width: 5px; 
+    border-style: solid;
+    border-color: #1CD904;
+    border-radius: 60px;
+    /*box-shadow: 1px 2px 10px 0px;*/
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+    color: #ffffff;
+    padding: 10px;
+}
+ .BotaoDois{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    
+    max-width: 300px;
+    border-width: 5px; 
+    border-style: solid;
+    border-color: #1CD904;
+    border-radius: 60px;
+    /*box-shadow: 1px 2px 10px 0px;*/
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+    color: #ffffff;
+    padding: 10px;
 }
 
-nav>a:hover {
-    background-color: var(--cor5);
-    color: white;
+.BotaoU {
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    margin: center;
+    margin-left: 30%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1CD904;
+    border-radius: 60px;
+    /*box-shadow: 1px 2px 10px 0px;*/
+    font-family: var(--fonte-padrao);
+    font-size: 2.3em;
+    color: #ffffff;
+    max-width: 300px;
+  }
+  
+.BotaoDoi{
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    margin: center;
+    margin-left: 30%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--cor8);
+    border-radius: 60px;
+    /*box-shadow: 1px 2px 10px 0px;*/
+    font-family: var(--fonte-padrao);
+    font-size: 2.3em;
+    color: #ffffff;
+    max-width: 300px;
+  }
 
+.BotaoUm:hover {
+    
 }
+
 /*---------------------------MEIO-----------------------*/
 main {
     min-width: 300px;
     max-width: 3200px;
     margin: auto;
     padding: 2px;
-    background-color: var(--cor0);
+    background-color: var(--cor0); 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
-    border-bottom-left-radius: 10px;
+    border-radius: 0px 0px 15px 15px;
 
 
 }
@@ -155,7 +222,7 @@ aside {
 }
 /*-------------------------------VIDEO-------------------------*/
 div.video {
-    background-image: linear-gradient(to bottom, #3d8a3b, transparent);
+    background-image: linear-gradient(to top,var(--cor3),var(--cor0));
     margin: auto;
     padding: 20px;
     margin-left: -245px;
@@ -229,18 +296,48 @@ div.video>iframe {
     margin: auto;
 }
 /*---------------------MENU-------------------------------*/
+
+nav {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.37);
+    text-align: center;
+    
+
+}
+
+nav>a {
+    color: rgb(15, 59, 4);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.4;
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+
+
+}
+
+nav>a:hover {
+   background-color: var(--cor5);
+    color: white;
+
+}
 .menu {
     width: 100%;
     display: inline-block;
+    
 }
 
 .menu nav a {
     color: var(--cor0);
     text-decoration: none;
     font-size: 18px;
-    padding-right: 30px;
     padding-bottom: 8px;
     position: relative;
+    
 }
 
 .menu nav a::after {
@@ -344,18 +441,18 @@ footer {
     text-align: center;
     font-size: 0.8em;
     padding: 50px;
-    margin-top: 10px;
+    
 }
 
 footer a {
     color: white;
-    font-weight: bolder;
+    
     text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline;
-    color: var(--cor1);
+    text-decoration: solid;
+    color: green;
 }
 
 /*------------BOTÃO--------------------*/
