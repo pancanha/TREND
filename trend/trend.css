@@ -222,7 +222,7 @@ aside {
 }
 /*-------------------------------VIDEO-------------------------*/
 div.video {
-    background-image: linear-gradient(to top,var(--cor12), transparent);
+    background-image: linear-gradient(to top,var(--cor3),var(--cor0));
     margin: auto;
     padding: 20px;
     margin-left: -245px;
