@@ -148,16 +148,34 @@ header>p {
     transition: all 0.3s;
     box-sizing: border-box;
     cursor: pointer;
-
     border-style: solid;
-    border-color: #f2da05;
-    
+    border-color: #f2da05; 
+}
+.Numero:hover {
+    display: inline-block;
+    margin: center;
+    font-family: "DM Sans", DM Sans, Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    fill: var(--cor10);
+    color: var(--cor10);
+    background-color: #ee9c04;
+    border-radius: 50px;
+    width:100%;
+    line-height: 1;
+    padding: 16px 27px;
+    text-align: center;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #f2da05; 
 }
 .Numero>a{
     color: white;
 }
-@media (max-width: 768px) {
-    .AbaixoDoBanner {
+media (max-width:768px) {
+    .baixoDoBanner {
         font-size: 25px;
         padding: 30px 0;
     }
@@ -175,15 +193,19 @@ header>p {
         padding: 12px 20px;
     }
     .linha-vertical {
-        height: 80px;
-    } }
+        height: 0px;
+    } 
+    
+
+}
 
 
 .linha-vertical {
     height: 150px;/*Altura da linha*/
     border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
    border-color: var(--cor10);
-   margin-left: 50px;
+    
+   display: inline-block;
   }
 
 /*---------------------------MEIO-----------------------*/
@@ -445,6 +467,7 @@ div.contatos {
     margin-top: 10px;
 }
 
+
 div.endereco {
     max-width: 300px;
     display: inline-block;
@@ -472,7 +495,7 @@ footer a {
 
 footer a:hover {
     text-decoration: solid;
-    color: green;
+    color: rgb(184, 216, 187);
 }
 
 /*------------BOTÃO--------------------*/
@@ -492,7 +515,7 @@ footer a:hover {
     top: 0;
     right: 0;
     z-index: -1;
-    background-image: linear-gradient(to right, var(--cor0), #0bca04);
+    background-image: linear-gradient(to right, var(--cor0), #08a303);
     border-radius: 5px;
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
