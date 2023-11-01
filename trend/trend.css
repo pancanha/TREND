@@ -191,7 +191,7 @@ main p {
 
 main strong {
     color: var(--cor4);
-    font-weight: bold;
+    font-weight: BOLDER;
 
 }
 
@@ -505,7 +505,7 @@ button {
     border-radius: 5px;
 
     font-family: 'Lato', sans-serif;
-    font-weight: bolder;
+    font-weight: 550;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
