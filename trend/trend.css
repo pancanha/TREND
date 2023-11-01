@@ -72,43 +72,57 @@ header>p {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 /*---------------------------Abaixo do Banner-----------------------*/
+.exterto{
+    text-decoration: none;
+}
 .AbaixoDoBanner {
-    max-width: 100%;
+    width: 100%;
     margin-top: 100px;
-    text-align: center;
-    background-image: linear-gradient(to top, #0460D9, #0451B5, #0460D9);
+    text-align:center;
     padding: 70px 0;
     position: relative;
-    display: flex;
+    display: inline-block;
+    background-image: linear-gradient(to top, #0460D9, #0451B5, #0460D9);
+    text-decoration: none;
+  
+
+    
+
    
 }
 .imgT{
-    margin-bottom: -3px;
+    margin-bottom: -6px;
 }
 .div1{
+   
+    display: inline-block;
+    
     color: var(--cor10);
     font-family: "DM Sans", DM Sans, Sans-serif;
     font-size: 16px;
     font-weight: 450;
-    
     font-size: 2.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    position: relative;
+   
        
 }
 .div2 {
+    display: inline-block;
+    margin: center;
     padding: 10px 30px 20px;
     color: #FFFFFF;
     font-family: "DM Sans", DM Sans, Sans-serif;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 5%;
+    position: relative;
     text-align: center; /* Centraliza o texto em telas menores */
 }
 .Telefone {
+    display: ;
+    margin: center;
     color: white;
     font-family: "DM Sans", DM Sans, Sans-serif;
     font-size: 20px;
@@ -118,32 +132,58 @@ header>p {
 }
 
 .Numero {
+    display: inline-block;
+    margin: center;
     font-family: "DM Sans", DM Sans, Sans-serif;
     font-size: 20px;
     font-weight: bold;
     fill: var(--cor10);
-    color: var(--cor4);
-    background-color: var(--cor3);
+    color: var(--cor10);
+    background-color: var(--cor8);
     border-radius: 50px;
-    width: 100%;
-    display: inline-block;
+    width:100%;
     line-height: 1;
     padding: 16px 27px;
     text-align: center;
     transition: all 0.3s;
     box-sizing: border-box;
     cursor: pointer;
-    text-align: center; /* Centraliza o texto em telas menores */
+    border-style: solid;
+    border-color: #f2da05; 
 }
-/*@media (max-width: 768px) {
-    .AbaixoDoBanner {
+.Numero:hover {
+    display: inline-block;
+    margin: center;
+    font-family: "DM Sans", DM Sans, Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    fill: var(--cor10);
+    color: var(--cor10);
+    background-color: #ee9c04;
+    border-radius: 50px;
+    width:100%;
+    line-height: 1;
+    padding: 16px 27px;
+    text-align: center;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #f2da05; 
+}
+.Numero>a{
+    color: white;
+}
+media (max-width:768px) {
+    .baixoDoBanner {
+        font-size: 25px;
         padding: 30px 0;
     }
     .div1 {
-        font-size: 18px;
+        font-size: 20px;
     }
     .div2 {
-        font-size: 16px;
+        font-size: 20px;
     }
     .Telefone {
         font-size: 16px;
@@ -153,15 +193,19 @@ header>p {
         padding: 12px 20px;
     }
     .linha-vertical {
-        height: 80px;
-    } */
+        height: 0px;
+    } 
+    
+
+}
 
 
 .linha-vertical {
     height: 150px;/*Altura da linha*/
     border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
    border-color: var(--cor10);
-   margin-left: 50px;
+    
+   display: inline-block;
   }
 
 /*---------------------------MEIO-----------------------*/
@@ -423,6 +467,7 @@ div.contatos {
     margin-top: 10px;
 }
 
+
 div.endereco {
     max-width: 300px;
     display: inline-block;
@@ -437,7 +482,7 @@ footer {
     background-color: var(--cor11);
     color: white;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.0em;
     padding: 50px;
     
 }
@@ -450,7 +495,7 @@ footer a {
 
 footer a:hover {
     text-decoration: solid;
-    color: green;
+    color: rgb(184, 216, 187);
 }
 
 /*------------BOTÃO--------------------*/
@@ -470,7 +515,7 @@ footer a:hover {
     top: 0;
     right: 0;
     z-index: -1;
-    background-image: linear-gradient(to right, var(--cor0), #0bca04);
+    background-image: linear-gradient(to right, var(--cor0), #08a303);
     border-radius: 5px;
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
