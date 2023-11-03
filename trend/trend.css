@@ -289,7 +289,7 @@ div.video>iframe {
 .Numeroo {
     margin-top: 40px;
     display: inline-block;
-    margin-right: 300px;
+    margin-right: 00px;
     
     font-family: "DM Sans", DM Sans, Sans-serif;
     font-size: 20px;
@@ -332,7 +332,7 @@ div.video>iframe {
     color: white;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .container {
         flex-direction: row; /* Alinha elementos horizontalmente em telas maiores */
         
@@ -561,8 +561,17 @@ nav>a:hover {
 #imgPW {
     text-align: center;
     
-    margin-top: 100px;
-    margin-bottom: -100px;
+    margin-top: -120px;
+    margin-bottom: 00px;
+}
+@media (min-width: 1200px){
+    #imgPW {
+        text-align: center;
+        
+        margin-top: -300px;
+        margin-bottom: -50px;
+    }   
+
 }
 /*-----------------------ANTES DO RODAPÉ-------------------------------*/
 
