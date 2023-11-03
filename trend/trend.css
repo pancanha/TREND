@@ -174,30 +174,6 @@ header>p {
 .Numero>a{
     color: white;
 }
-media (max-width:768px) {
-    .baixoDoBanner {
-        font-size: 25px;
-        padding: 30px 0;
-    }
-    .div1 {
-        font-size: 20px;
-    }
-    .div2 {
-        font-size: 20px;
-    }
-    .Telefone {
-        font-size: 16px;
-    }
-    .Numero {
-        font-size: 18px;
-        padding: 12px 20px;
-    }
-    .linha-vertical {
-        height: 0px;
-    } 
-    
-
-}
 
 
 .linha-vertical {
@@ -278,7 +254,7 @@ aside {
 div.video>iframe {
     position: relative;
     top: 5%;
-    left: 1%;
+    left: 0%;
     width: 7%;
     height: 80%;
     min-width: 350px;
@@ -291,7 +267,7 @@ div.video>iframe {
 
 .txtvideo {
     display: inline-block;
-    max-width: 450px;
+    max-width: 400px;
     position: relative;
     color: #000000;
     font-family: "DM Sans", DM Sans, Sans-serif;
@@ -302,9 +278,58 @@ div.video>iframe {
     margin-left: 40px;
     margin-right: 20px;
     margin-bottom: 100px;
+    margin-top: 40px;
 
-    font-family: sans-serif; text-indent: 20px; letter-spacing: 1px; font-weight: inherit;
+    font-family: sans-serif; 
+    text-indent: 20px; 
+    letter-spacing: 1px; 
+    font-weight: inherit;
     
+}
+.Numeroo {
+    margin-top: 40px;
+    display: inline-block;
+    margin-right: 300px;
+    
+    font-family: "DM Sans", DM Sans, Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    fill: var(--cor10);
+    color: var(--cor10);
+    background-color: var(--cor1);
+    border-radius: 50px;
+    width:70%;
+    line-height: 1;
+    padding: 16px 20px;
+    text-align: center;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #0DF205; 
+}
+.Numeroo:hover {
+    display: inline-block;
+    margin: center;
+    font-family: "DM Sans", DM Sans, Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    fill: var(--cor10);
+    color: var(--cor10);
+    background-color: var(--cor12);
+    border-radius: 50px;
+    width:90%;
+    line-height: 1;
+    padding: 16px 27px;
+    text-align: center;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-style: solid;
+    border-color: var(--cor6); 
+}
+.Numeroo>a{
+    color: white;
 }
 
 @media (min-width: 768px) {
@@ -323,7 +348,7 @@ div.video>iframe {
     min-height: 620px;
     margin-bottom:20px;
     box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.479);
-    margin-left: 400px;
+    margin-left: 200px;
         
     }
 
@@ -493,9 +518,9 @@ nav>a:hover {
 /*-----------------------IMAGEM PARAMOUNT E WATCH-------------------------------*/
 #imgPW {
     text-align: center;
-    background-color: var(--cor10);
-    margin-top: -400px;
-    margin-bottom: -300px;
+    
+    margin-top: -100px;
+    margin-bottom: -200px;
 }
 /*-----------------------ANTES DO RODAPÉ-------------------------------*/
 
