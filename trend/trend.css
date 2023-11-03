@@ -298,7 +298,7 @@ div.video>iframe {
     color: var(--cor10);
     background-color: var(--cor1);
     border-radius: 50px;
-    width:70%;
+    width:80%;
     line-height: 1;
     padding: 16px 20px;
     text-align: center;
@@ -332,7 +332,7 @@ div.video>iframe {
     color: white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
     .container {
         flex-direction: row; /* Alinha elementos horizontalmente em telas maiores */
         
@@ -364,6 +364,48 @@ div.video>iframe {
         text-align: center;
         margin-left: 180px;
         
+    }
+    .Numeroo {
+        margin-top: 40px;
+        display: inline-block;
+        margin-right: 300px;
+        
+        font-family: "DM Sans", DM Sans, Sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        fill: var(--cor10);
+        color: var(--cor10);
+        background-color: var(--cor1);
+        border-radius: 50px;
+        width:70%;
+        line-height: 1;
+        padding: 16px 20px;
+        text-align: center;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        cursor: pointer;
+        border-style: solid;
+        border-color: #0DF205; 
+    }
+    .Numeroo:hover {
+        display: inline-block;
+        margin: center;
+        font-family: "DM Sans", DM Sans, Sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        fill: var(--cor10);
+        color: var(--cor10);
+        background-color: var(--cor12);
+        border-radius: 50px;
+        width:90%;
+        line-height: 1;
+        padding: 16px 27px;
+        text-align: center;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        cursor: pointer;
+        border-style: solid;
+        border-color: var(--cor6); 
     }
 }
 
@@ -519,8 +561,8 @@ nav>a:hover {
 #imgPW {
     text-align: center;
     
-    margin-top: -100px;
-    margin-bottom: -200px;
+    margin-top: 100px;
+    margin-bottom: -100px;
 }
 /*-----------------------ANTES DO RODAPÉ-------------------------------*/
 
@@ -531,7 +573,7 @@ nav>a:hover {
     margin-left: 0px;
     padding-bottom: 5%;
     padding-top: 2%;
-    margin-top: 700px;
+    margin-top: 0px;
 }
 
 div.wifi { 
