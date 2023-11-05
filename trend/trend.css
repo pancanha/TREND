@@ -679,7 +679,7 @@ footer a:hover {
     top: 0;
     right: 0;
     z-index: -1;
-    background-image: linear-gradient(to right, var(--cor0), #08a303);
+    background-image: linear-gradient(to right, var(--cor5), var(--cor4), var(--cor6));
     border-radius: 5px;
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
