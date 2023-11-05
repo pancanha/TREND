@@ -7,6 +7,11 @@
     src: url('fontes/abnes/abnes.otf') format('opentype');
     font-weight: normal;
 }
+@font-face {
+    font-family: 'public';
+    src: url('fontes/public/PublicSans-Bold.ttf') format('opentype');
+    font-weight: normal;
+}
 
 * {
     margin: 0px;
@@ -31,6 +36,7 @@
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue';
     --fonte-android: 'fontelogo';
+    --fonte-public:'public';
 }
 
 body {
