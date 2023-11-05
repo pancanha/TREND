@@ -563,57 +563,47 @@ menu > ul > li:hover {
     margin-left: 20px;
     margin-right: 20px;
 }
-/*-----------------------IMAGEM PARAMOUNT E WATCH-------------------------------*/
-#imgPW {
-    text-align: center;
-    
-    margin-top: -120px;
-    margin-bottom: 00px;
-}
-@media (min-width: 1200px){
-    #imgPW {
-        text-align: center;
-        
-        margin-top: -300px;
-        margin-bottom: -50px;
-    }   
 
-}
 /*-----------------------ANTES DO RODAPÉ-------------------------------*/
 .ai{
-    margin-left: -15px;
+    margin-left: 50px;
+    
+    
     
 }
 
 .ui,.ai{
-    margin-right: 20px;
+    
     font-size: 2.2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: var(--cor4);
     width: 300px;
     text-align: center;
+    display: block;
+    margin-left: -2px;
     
 }
 @media (min-width: 1200px){
     .ui,.ai{
-    margin-right: 20px;
+    
     font-size: 2.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: var(--cor4);
 }
-.ai{
-    margin-left: 15px;
+.imgS{
+    margin-left: -40px;
+    
     
 }
+
 }
 .wifiback {
             
     text-align: center;
-    background-color: #60B852;
     margin-left: 0px;
     padding-bottom: 5%;
     padding-top: 2%;
-    margin-top: 0px;
+    
 }
 
 div.wifi { 
