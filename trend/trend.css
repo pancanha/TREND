@@ -480,7 +480,7 @@ nav {
 menu > ul > li {
     color: rgb(15, 59, 4);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 0px;
     text-decoration: none;
     font-weight: bolder;
     transition-duration: 0.4;
