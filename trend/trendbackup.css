@@ -7,6 +7,11 @@
     src: url('fontes/abnes/abnes.otf') format('opentype');
     font-weight: normal;
 }
+@font-face {
+    font-family: 'public';
+    src: url('fontes/public/PublicSans-Bold.ttf') format('opentype');
+    font-weight: normal;
+}
 
 * {
     margin: 0px;
@@ -31,6 +36,7 @@
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue';
     --fonte-android: 'fontelogo';
+    --fonte-public:'public';
 }
 
 body {
@@ -477,21 +483,20 @@ nav {
 
 }
 
-nav>a {
+menu > ul > li {
     color: rgb(15, 59, 4);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 0px;
     text-decoration: none;
     font-weight: bolder;
     transition-duration: 0.4;
-    margin-left: 20px;
     position: relative;
     display: inline-block;
 
 
 }
 
-nav>a:hover {
+menu > ul > li:hover {
    background-color: var(--cor5);
     color: white;
 
@@ -502,16 +507,17 @@ nav>a:hover {
     
 }
 
-.menu nav a {
+menu > ul > li {
     color: var(--cor0);
     text-decoration: none;
     font-size: 18px;
     padding-bottom: 8px;
     position: relative;
+    cursor: pointer;
     
 }
 
-.menu nav a::after {
+menu > ul > li::after {
     content: " ";
     width: 0px;
     height: 4px;
@@ -522,11 +528,11 @@ nav>a:hover {
     transition: width 0.7s;
 }
 
-.menu nav a:hover::after {
+menu > ul > li:hover::after {
     width: 100%;
 }
 
-.menu nav a:hover {
+menu > ul > li:hover {
     color: #ffffff;
 }
 /*---------------------TEXTO ANTES DOS PLANOS-------------------------------*/
@@ -557,57 +563,47 @@ nav>a:hover {
     margin-left: 20px;
     margin-right: 20px;
 }
-/*-----------------------IMAGEM PARAMOUNT E WATCH-------------------------------*/
-#imgPW {
-    text-align: center;
-    
-    margin-top: -120px;
-    margin-bottom: 00px;
-}
-@media (min-width: 1200px){
-    #imgPW {
-        text-align: center;
-        
-        margin-top: -300px;
-        margin-bottom: -50px;
-    }   
 
-}
 /*-----------------------ANTES DO RODAPÉ-------------------------------*/
 .ai{
-    margin-left: -15px;
+    margin-left: 50px;
+    
+    
     
 }
 
 .ui,.ai{
-    margin-right: 20px;
+    
     font-size: 2.2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: var(--cor4);
     width: 300px;
     text-align: center;
+    display: block;
+    margin-left: -2px;
     
 }
 @media (min-width: 1200px){
     .ui,.ai{
-    margin-right: 20px;
+    
     font-size: 2.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: var(--cor4);
 }
-.ai{
-    margin-left: 15px;
+.imgS{
+    margin-left: -40px;
+    
     
 }
+
 }
 .wifiback {
             
     text-align: center;
-    background-color: #60B852;
     margin-left: 0px;
     padding-bottom: 5%;
     padding-top: 2%;
-    margin-top: 0px;
+    
 }
 
 div.wifi { 
