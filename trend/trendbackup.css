@@ -477,21 +477,21 @@ nav {
 
 }
 
-menu > ul > li {
+nav>a {
     color: rgb(15, 59, 4);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bolder;
     transition-duration: 0.4;
-    
+    margin-left: 20px;
     position: relative;
     display: inline-block;
 
 
 }
 
-menu > ul > li:hover {
+nav>a:hover {
    background-color: var(--cor5);
     color: white;
 
@@ -502,17 +502,16 @@ menu > ul > li:hover {
     
 }
 
-menu > ul > li {
+.menu nav a {
     color: var(--cor0);
     text-decoration: none;
     font-size: 18px;
     padding-bottom: 8px;
     position: relative;
-    cursor: pointer;
     
 }
 
-menu > ul > li::after {
+.menu nav a::after {
     content: " ";
     width: 0px;
     height: 4px;
@@ -523,11 +522,11 @@ menu > ul > li::after {
     transition: width 0.7s;
 }
 
-menu > ul > li:hover::after {
+.menu nav a:hover::after {
     width: 100%;
 }
 
-menu > ul > li:hover {
+.menu nav a:hover {
     color: #ffffff;
 }
 /*---------------------TEXTO ANTES DOS PLANOS-------------------------------*/
