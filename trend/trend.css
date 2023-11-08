@@ -565,38 +565,7 @@ menu > ul > li:hover {
 }
 
 /*-----------------------ANTES DO RODAPÉ-------------------------------*/
-.ai{
-    margin-left: 50px;
-    
-    
-    
-}
 
-.ui,.ai{
-    
-    font-size: 2.2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: var(--cor4);
-    width: 300px;
-    text-align: center;
-    display: block;
-    margin-left: -2px;
-    
-}
-@media (min-width: 1200px){
-    .ui,.ai{
-    
-    font-size: 2.5em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: var(--cor4);
-}
-.imgS{
-    margin-left: -40px;
-    
-    
-}
-
-}
 .wifiback {
             
     text-align: center;
@@ -614,7 +583,40 @@ div.wifi {
     margin-right: 10px;
     max-width: 400px;
     
+    
 }
+
+.ves{
+    
+    font-size: 2.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: var(--cor4);
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin-left: 40px;
+    
+    
+}
+@media (max-width: 1200px){
+    .ves{
+    
+        font-size: 2.2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        color: var(--cor4);
+        width: 300px;
+        text-align: center;
+        display: block;
+        margin-left: 20px;
+}
+.imgS{
+    margin-left: -10px;
+    
+    
+}
+
+}
+
 
 /*-----------------------RODAPÉ-------------------------------*/
 div.rodape {
