@@ -647,8 +647,52 @@ section> p {
 
     </div>
     </div>
-    
-    <!--parte do footer da bordar verde-->
+    <button id="scrollTopBtn" onclick="scrollToTop()"><img src="imagens/setaparacima.png" width="50px"></button>
+    <script>
+        // Função para verificar a posição de rolagem e exibir/ocultar o botão
+window.onscroll = function () {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    var scrollTopBtn = document.getElementById("scrollTopBtn");
+
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollTopBtn.style.display = "block";
+    } else {
+        scrollTopBtn.style.display = "none";
+    }
+}
+
+// Função para rolar suavemente para o topo
+function scrollToTop() {
+    document.body.scrollTop = 0; // Para navegadores da web
+    document.documentElement.scrollTop = 0; // Para IE/Edge
+}
+
+    </script>
+
+    <style>
+        #scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--cor11);;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    padding: 0px;
+}
+
+#scrollTopBtn:hover {
+    background-color: #2979FF;
+}
+
+    </style>
+    <!--parte do footer da borda verde-->
 
     <footer>
         <aside style=" background-color: #0aca14; margin-top:-5px;border-radius: 0px;padding: 1px;margin-bottom: 20px;">
