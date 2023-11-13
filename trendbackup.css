@@ -565,7 +565,38 @@ menu > ul > li:hover {
 }
 
 /*-----------------------ANTES DO RODAPÉ-------------------------------*/
+.ai{
+    margin-left: 50px;
+    
+    
+    
+}
 
+.ui,.ai{
+    
+    font-size: 2.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: var(--cor4);
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin-left: -2px;
+    
+}
+@media (min-width: 1200px){
+    .ui,.ai{
+    
+    font-size: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: var(--cor4);
+}
+.imgS{
+    margin-left: -40px;
+    
+    
+}
+
+}
 .wifiback {
             
     text-align: center;
@@ -583,40 +614,7 @@ div.wifi {
     margin-right: 10px;
     max-width: 400px;
     
-    
 }
-
-.ves{
-    
-    font-size: 2.2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: var(--cor4);
-    width: 300px;
-    text-align: center;
-    display: block;
-    margin-left: 40px;
-    
-    
-}
-@media (max-width: 1200px){
-    .ves{
-    
-        font-size: 2.2em;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        color: var(--cor4);
-        width: 300px;
-        text-align: center;
-        display: block;
-        margin-left: 20px;
-}
-.imgS{
-    margin-left: -10px;
-    
-    
-}
-
-}
-
 
 /*-----------------------RODAPÉ-------------------------------*/
 div.rodape {
@@ -628,7 +626,7 @@ div.rodape {
 }
 
 div.contatos {
-    max-width: 4000px;
+    max-width: 250px;
     display: inline-block;
     margin-top: 10px;
 }
@@ -681,7 +679,7 @@ footer a:hover {
     top: 0;
     right: 0;
     z-index: -1;
-    background-image: linear-gradient(to right, var(--cor5), var(--cor4), var(--cor6));
+    background-image: linear-gradient(to right, var(--cor0), #08a303);
     border-radius: 5px;
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
