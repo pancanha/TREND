@@ -44,7 +44,7 @@ body {
     background-color: #E7E8EB;
 }
 
-
+/*-------------------------HEADER-----------------------*/
 
 header {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor0), var(--cor0), #0ab404);
@@ -74,9 +74,106 @@ header>p {
     padding-left: 10px;
     margin: auto;
     padding-bottom: 30px;
-
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
+
+/*---------------------MENU-------------------------------*/
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.37);
+    text-align: center;
+}
+
+menu > ul > li {
+    color: rgb(15, 59, 4);
+    padding: 10px;
+    border-radius: 0px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.4;
+    position: relative;
+    display: inline-block;
+}
+
+menu > ul > li:hover {
+   background-color: var(--cor5);
+    color: white;
+}
+.menu {
+    width: 100%;
+    display: inline-block; 
+}
+
+menu > ul > li {
+    color: var(--cor0);
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 8px;
+    position: relative;
+    cursor: pointer; 
+}
+menu > ul > li::after {
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, var(--cor0), var(--cor1));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.7s;
+}
+menu > ul > li:hover::after {
+    width: 100%;
+}
+menu > ul > li:hover {
+    color: #ffffff;
+}
+/*---------------------------MENU BOTÕES-----------------------*/
+span.material-symbols-outlined{
+    background-color: var(--cor5);
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+span.material-symbols-outlined:hover{
+    background-image: linear-gradient(45deg, var(--cor0), var(--cor1));
+    color: black;
+}
+menu{
+    display:none;
+}
+menu > ul {
+    list-style: none;
+}
+menu > ul > li {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: var(--cor0);
+    text-align: center;
+     border-top: 0px solid rgb(190, 188, 188);
+    cursor: pointer; 
+}
+@media screen and (min-width: 768px) {
+
+    span.material-symbols-outlined{
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block;
+    
+        border-radius: 5px;
+    }
+    }
+    
 /*---------------------------Abaixo do Banner-----------------------*/
 .exterto{
     text-decoration: none;
@@ -89,18 +186,12 @@ header>p {
     position: relative;
     display: inline-block;
     background-image: linear-gradient(to top, #0460D9, #0451B5, #0460D9);
-    text-decoration: none;
-  
-
-    
-
-   
+    text-decoration: none; 
 }
 .imgT{
     margin-bottom: -6px;
 }
 .div1{
-   
     display: inline-block;
     color: var(--cor10);
     font-family: "DM Sans", DM Sans, Sans-serif;
@@ -112,8 +203,7 @@ header>p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;     
 }
-@media (min-width: 1200px){
-    
+@media (min-width: 1200px){ 
 }
 .div2 {
     display: inline-block;
@@ -180,17 +270,16 @@ header>p {
 .Numero>a{
     color: white;
 }
-
-
 .linha-vertical {
     height: 150px;/*Altura da linha*/
     border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
    border-color: var(--cor10);
-    
    display: inline-block;
   }
 
 /*---------------------------MEIO-----------------------*/
+main { 
+}
 main {
     min-width: 300px;
     max-width: 3200px;
@@ -199,14 +288,16 @@ main {
     background-color: var(--cor0); 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
     border-radius: 0px 0px 15px 15px;
-
-
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 main p {
     margin: 0px 0px;
     text-align: justify;
 }
-
 main p {
     margin: 10px 0px;
     text-align: justify;
@@ -214,29 +305,23 @@ main p {
     font-size: 1em;
     line-height: 2em;
 }
-
 main strong {
     color: var(--cor4);
     font-weight: bold;
-
 }
-
 main a {
     text-decoration: none;
     font-weight: bold;
     color: black;
     padding: 2px 2px;
 }
-
 main a:hover {
     text-decoration: underline;
     color: #1E3C45;
 }
-
 main img {
     width: 100%;
 }
-
 aside {
     background-color: var(--cor0);
     padding: 10px;
@@ -246,7 +331,6 @@ aside {
 }
 /*-------------------------------VIDEO-------------------------*/
 .container {
-    
     display: flex;
     flex-direction: column; /* Empilha os elementos verticalmente */
     align-items: center;
@@ -256,7 +340,6 @@ aside {
     padding: 40px 0px;
     background-image: linear-gradient(to top, var(--cor3), var(--cor0));
 }
-
 div.video>iframe {
     position: relative;
     top: 5%;
@@ -268,9 +351,7 @@ div.video>iframe {
     margin-bottom:20px;
     box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.479);
     margin-left: 00px;
-
 }
-
 .txtvideo {
     display: inline-block;
     max-width: 800px;
@@ -285,18 +366,15 @@ div.video>iframe {
     margin-right: 15px;
     margin-bottom: 100px;
     margin-top: 40px;
-
     font-family: sans-serif; 
     text-indent: 20px; 
     letter-spacing: 1px; 
     font-weight: inherit;
-    
 }
 .Numeroo {
     margin-top: 40px;
     display: inline-block;
     margin-right: 00px;
-    
     font-family: "DM Sans", DM Sans, Sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -340,10 +418,8 @@ div.video>iframe {
 
 @media (min-width: 1200px) {
     .container {
-        flex-direction: row; /* Alinha elementos horizontalmente em telas maiores */
-        
+        flex-direction: row; /* Alinha elementos horizontalmente em telas maiores */ 
     }
-
     div.video>iframe {
     position: relative;
     top: 5%;
@@ -354,10 +430,8 @@ div.video>iframe {
     min-height: 620px;
     margin-bottom:20px;
     box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.479);
-    margin-left: 200px;
-        
+    margin-left: 200px;  
     }
-
     .txtvideo {
         display: inline-block;
         max-width: 500px;
@@ -369,13 +443,11 @@ div.video>iframe {
         line-height: 1.6em;
         text-align: center;
         margin-left: 180px;
-        
     }
     .Numeroo {
         margin-top: 40px;
         display: inline-block;
         margin-right: 300px;
-        
         font-family: "DM Sans", DM Sans, Sans-serif;
         font-size: 20px;
         font-weight: bold;
@@ -416,19 +488,11 @@ div.video>iframe {
 }
 
 
-
-
-
-
-
 /*---------------------PARTE DA MULHER E TEXTO-------------------------------*/
 .imgMulher>img {
     margin-top: -100%;
     max-width: 320px;
-
-
 }
-
 #meio {
     max-width: 2900px;
     margin-top: 150px;
@@ -444,9 +508,7 @@ div.video>iframe {
     text-align: center;
     background-color: #60B852;
     margin: 0px;
-
 }
-
 .planoA {
     display: inline-block;
     margin: center;
@@ -458,83 +520,62 @@ div.video>iframe {
     border-radius: 11px;
     box-shadow: 1px 2px 10px 0px;
 }
-
-
-
 #especificacoes {
     padding: 2px 1px 5px 1px;
-
 }
-
 .mensalidade {
     border-radius: 10px 10px 10px 10px;
     padding-top: 2px;
     background-color: rgb(255, 255, 255);
     margin: auto;
 }
-/*---------------------MENU-------------------------------*/
-
-nav {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.37);
-    text-align: center;
-    
-
+/*---------------------PARALAX--------------------------------------------*/
+#img01 {
+    background-image: url(imagens/gara1.png);
+    background-position: right center;
 }
 
-menu > ul > li {
-    color: rgb(15, 59, 4);
-    padding: 10px;
-    border-radius: 0px;
-    text-decoration: none;
-    font-weight: bolder;
-    transition-duration: 0.4;
-    position: relative;
-    display: inline-block;
-
-
-}
-
-menu > ul > li:hover {
-   background-color: var(--cor5);
+#img01 {
+    background-color: rgba(0, 0, 0, 0.315);
     color: white;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.678);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.menu {
-    width: 100%;
+#img01>p {
     display: inline-block;
-    
+    padding: 30px;
+    text-shadow: 1px 1px 0px black;
+    font-size: 0.8em;
 }
 
-menu > ul > li {
-    color: var(--cor0);
-    text-decoration: none;
-    font-size: 18px;
-    padding-bottom: 8px;
-    position: relative;
-    cursor: pointer;
-    
+#img01 {
+    padding-top: 10vh;
+    height: 350px;
+    font-family: var(--fonte-public);
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+}
+section>p {
+    padding-bottom: 2em;
 }
 
-menu > ul > li::after {
-    content: " ";
-    width: 0px;
-    height: 4px;
-    background-image: linear-gradient(45deg, var(--cor0), var(--cor1));
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: width 0.7s;
-}
-
-menu > ul > li:hover::after {
-    width: 100%;
-}
-
-menu > ul > li:hover {
-    color: #ffffff;
+@media screen and (min-width: 768px) {
+    #img01 {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-size: 3.0em;
+    }
+    #img01>p {
+        display: inline-block;
+        padding: 20px;
+        text-shadow: 1px 1px 0px black;
+        font-size: 0.8em;
+    }
 }
 /*---------------------TEXTO ANTES DOS PLANOS-------------------------------*/
 #escolha {
@@ -548,9 +589,7 @@ menu > ul > li:hover {
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
-
 }
-
 #escolha1 {
     background-color: ;
     color: rgb(119, 128, 136);
@@ -564,16 +603,13 @@ menu > ul > li:hover {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 /*-----------------------ANTES DO RODAPÉ-------------------------------*/
 
-.wifiback {
-            
+.wifiback {     
     text-align: center;
     margin-left: 0px;
     padding-bottom: 5%;
     padding-top: 2%;
-    
 }
 
 div.wifi { 
@@ -582,13 +618,10 @@ div.wifi {
     display: inline-block;
     margin-left: 20px; /* Centraliza o bloco horizontalmente */ 
     margin-right: 10px;
-    max-width: 400px;
-    
-    
+    max-width: 400px; 
 }
 
 .ves{
-    
     font-size: 2.2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: var(--cor4);
@@ -596,12 +629,9 @@ div.wifi {
     text-align: center;
     display: block;
     margin-left: 40px;
-    
-    
 }
 @media (max-width: 1200px){
     .ves{
-    
         font-size: 2.2em;
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
         color: var(--cor4);
@@ -612,20 +642,14 @@ div.wifi {
 }
 .imgS{
     margin-left: -10px;
-    
-    
 }
-
 }
-
-
 /*-----------------------RODAPÉ-------------------------------*/
 div.rodape {
     margin-top: 0px;
     max-width: 300px;
     display: inline-block;
     margin-right: 00px;
-
 }
 
 div.contatos {
@@ -633,30 +657,24 @@ div.contatos {
     display: inline-block;
     margin-top: 10px;
 }
-
-
 div.endereco {
     max-width: 400px;
     display: inline-block;
     margin-top: 10px;
 }
-
 .imgrodape {
     position: relative;
 }
-
 footer {
     background-color: var(--cor11);
     color: white;
     text-align: center;
     font-size: 1.0em;
-    padding: 50px;
-    
+    padding: 50px; 
 }
 
 footer a {
     color: white;
-    
     text-decoration: none;
 }
 
@@ -666,8 +684,6 @@ footer a:hover {
 }
 
 /*------------BOTÃO--------------------*/
-
-
 /* 15 */
 .btn-15 {
     border: none;
@@ -689,27 +705,20 @@ footer a:hover {
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     transition: all 0.3s ease;
 }
-
 .btn-15:hover {
     color: #ffffff;
 }
-
 .btn-15:hover:after {
     left: 0;
     width: 100%;
 }
-
 .btn-15:active {
     top: 2px;
 }
-
 button {
     margin: 2px;
     text-align: center;
-
-
 }
-
 .custom-btn {
     width: 250px;
     height: 40px;
@@ -727,4 +736,22 @@ button {
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
+}
+
+/*--------------------------BOTÃO QUE SOBE------------------*/
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--cor11);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    padding: 0px;
+}
+#scrollTopBtn:hover {
+    background-color: #2979FF;
 }
