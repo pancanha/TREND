@@ -24,10 +24,10 @@
             </span>
         <menu id="itens">
             <ul>
-                <li href=""><a href="trend.html" style="text-decoration: none; color:inherit;">MENU</a></li>
-                <li href="#">CONTATOS</li>
-                <li href=""><a href="trendquemsomos.html" style="text-decoration: none; color:inherit;">QUEM SOMOS</a></li>
-                <li href="#">MAIS+</li>
+                <li ><a href="trend.html" style="text-decoration: none; color:inherit;">MENU</a></li>
+                <li><a href="#contato" style="text-decoration: none; color:inherit;">CONTATOS</a></li>
+                <li><a href="trend.html#planos" style="text-decoration: none; color:inherit;">PLANOS</a></li>
+                <li ><a href="trendquemsomos.html" style="text-decoration: none; color:inherit;">QUEM SOMOS</a></li>
                 
             </ul>
         </menu>
@@ -119,12 +119,87 @@ menu > ul > li {
            }
         }
     </script>
-    
-<h1 style="text-align: center; margin-top: 100px;">Quem somos?</h1>
-<p style="text-align: center; font-size: larger; margin-bottom: 100px;">Só depende de anderson responder &#128526;</p>
-    
+    <style>
+        #Q{
+            display: flex;
+            position: relative;
+        }
 
-    <article class="AbaixoDoBanner">
+        #imgQ{
+            display: block;
+            margin-left: 20px;
+            margin-top: 40px;
+            border-radius: 20px 0px;
+        }
+        
+        #Qsomos{
+          margin-top: 50px;
+          margin: auto;
+          display: inline-block;
+          max-width: 500px;
+          
+        }
+        #somos{
+            max-width: 500px;
+            margin: auto;
+            
+            font-size: 20px;
+            font-weight: lighter;
+            margin-top: 20px;
+            display: inline-block;
+            text-align: justify;
+        }
+        @media (max-width: 1200px) {
+   
+    #Q{
+        flex-direction: row; /* Alinha elementos horizontalmente em telas maiores */
+            display: block;
+            position: relative;
+            text-align: center;
+            margin: auto;
+            margin-top: 30px;
+            
+            
+        }
+        
+        #imgQ{
+        text-align: center;
+		display: block;
+		margin: auto;
+        width: 400px;
+        
+        
+        }
+        
+        #Qsomos{
+          margin-top: 50px;
+          margin: auto;
+          display: inline-block;
+          max-width: 400px;
+          
+        }
+        #somos{
+            max-width: 400px;
+            margin: auto;
+            font-size: 20px;
+            font-weight: lighter;
+            margin-top: 20px;
+            display: block;
+            font-weight: 20px;
+            text-align: justify;
+        }
+}
+    </style>
+<div id="Q">
+    <img id="imgQ" style="display: block;" src="imagens/bonito-barbudo-sorridente-jovem-feliz-correndo-isolado-em-um-estudio-verde-moderno-vivido.jpg" width="600px" height="400px" >
+    <h1 id="Qsomos">Quem somos?
+        <p id="somos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, eaque voluptatum, quo ratione veritatis molestias ipsum ipsa officiis facilis corporis fugiat perspiciatis nulla sequi! Quae inventore libero iure totam modi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, ipsam. Quia iusto animi inventore aut voluptatibus! Beatae aut a dolorum quae, pariatur deserunt excepturi amet quos, magnam dicta unde impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deleniti nesciunt placeat omnis quas enim ipsum ex odit. Fuga saepe minus ut accusamus veniam minima dolores doloremque necessitatibus aliquid neque?</p>
+    </h1>
+    
+    
+</div>
+    <span id="contato"></span>
+    <article class="AbaixoDoBanner" style="margin-bottom: -15px;">
         <div class="div1" style="margin-left: 00px;">Seja <a href="#"
             style="font-family: fontelogo; color: rgb(153, 218, 134); text-decoration: none;">TREND<span style="color: white;">+</span></a>
         </div>
