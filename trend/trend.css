@@ -755,3 +755,86 @@ button {
 #scrollTopBtn:hover {
     background-color: #2979FF;
 }
+/*---------------QUEM SOMOS----------------------*/
+#Q {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+#imgQ {
+    margin-top: 80px;
+    border-radius: 20px 0px;
+    text-align: center;
+    position: relative;
+    max-width: 500px;
+    height: 400px;
+}
+#Qsomos {
+    margin-top: 100px;
+    display: inline-block;
+    max-width:700px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+#somos {
+    max-width: 700px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: justify;
+    font-family: sans-serif;
+}
+@media (max-width: 1300px) { 
+    #imgQ {
+    margin-top: 80px;
+    border-radius: 20px 0px;
+    text-align: center;
+    position: relative;
+    max-width: 800px;
+}  
+}
+@media (max-width: 600px){
+    #imgQ {
+    margin-top: 80px;
+    border-radius: 20px 0px;
+    text-align: center;
+    position: relative;
+    max-width: 400px;
+}}
+
+.span1 {
+    padding: 80px;
+    background-color: #0a27ca;
+    display: inline-block;
+    text-align: center;
+    color: white;
+
+    font-family: "DM Sans", DM Sans, Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4em;
+    max-width: 400px;
+    border-radius: 20px 0px;
+
+
+}
+
+.span2 {
+    padding: 60px;
+    background-color: #b9c3fd;
+    display: inline-block;
+    text-align: center;
+    color: #0a27ca;
+
+    font-family: "DM Sans", DM Sans, Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.4em;
+    max-width: 400px;
+    border-radius: 0px 20px;
+    margin-left: -4px;
+
+
+}
