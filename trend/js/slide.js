@@ -1,23 +1,37 @@
 //------------------------SLIDE--------------------------//
-var radio = document.querySelector('.manual-btn')
-var cont = 1
+var radio = document.querySelector('.manual-btn');
+var cont = 1;
+var intervalId;
 
-document.getElementById('radio1').checked = true
+document.getElementById('radio1').checked = true;
 
-setInterval(() => {
-    proximaImg()
-}, 5000)
+// Iniciar o carrossel
+intervalId = setInterval(() => {
+    proximaImg();
+}, 1000);
 
-function proximaImg(){
-    cont++
+// Adicionar eventos ao documento para mousedown e mouseup
+document.addEventListener('mousedown', function() {
+    // Ao segurar o clique, pausar o carrossel
+    clearInterval(intervalId);
+});
 
-    if(cont > 3){
-        cont = 1 
+document.addEventListener('mouseup', function() {
+    // Ao soltar o clique, retomar o carrossel
+    intervalId = setInterval(() => {
+        proximaImg();
+    }, 1000);
+});
+
+function proximaImg() {
+    cont++;
+
+    if (cont > 3) {
+        cont = 1;
     }
 
-    document.getElementById('radio'+cont).checked = true
+    document.getElementById('radio' + cont).checked = true;
 }
-
 //-------------------------- MENU HAMBURGUER-----------------//
 
 function mudouTamanho() {
