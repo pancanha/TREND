@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREND Connect+</title>
+    <link rel="shortcut icon" href="imagens/esse branco.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="trend.css">
+    <link rel="stylesheet" href="slide.css">
+    <script src="slide.js" defer></script>
+
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <h1><a href="index.html"><img src="imagens/TREND TAMANHO CERTO.png" alt="logotrend" width="350" height="250px"></a></h1>
+    </header>
+    <nav>
+        <span class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="itens">
+            <ul>
+                <li href="#">MENU</li>
+                <li><a href="#contato" style="text-decoration: none; color:inherit;">CONTATOS</a></li>
+                <li><a href="#planos" style="text-decoration: none; color:inherit;">PLANOS</a></li>
+                <li><a href="trendquemsomos.html" style="text-decoration: none; color:inherit;">QUEM SOMOS</a></li>
+            </ul>
+        </menu>
+    </nav>
+
+
+    <!--------------------------------------SLIDER------------------------>
+    <section class="slider">
+        <div class="slider-content">
+
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="imagens/TREND-BANNER-3.png" alt="slide 1">
+                <img class="img-mobile" src="imagens/TREND-BANNER-3-mobile.png" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="imagens/TREND-BANNER-2.png" alt="slide 3">
+                <img class="img-mobile" src="imagens/TREND-BANNER-2-mobile.png" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="imagens/TRENDBANNERAZUL.png" alt="slide 3">
+                <img class="img-mobile" src="imagens/TRENDBANNERAZUL-mobile.png" alt="slide 3">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+            
+        </div><span id="contato"></span>
+        
+    </section>
+    <!-----------------------------------CONTATOS--------------------------->
+    
+    <article class="AbaixoDoBanner">
+        <div class="div1" style="margin-left: 00px;">Seja <a href=""
+                style="font-family: fontelogo; color: rgb(153, 218, 134); text-decoration: none;">TREND<span
+                    style="color: white;">+</span></a>
+        </div>
+        <div class="div2">
+            <div class="Telefone">
+                Por telefone
+            </div>
+            <a style="text-decoration: none;" href="tel:08006540022">
+                <div class="Numero">
+                    <img class="imgT" src="imagens/telefoneAV.png" width="25px" alt="">&nbsp;&nbsp;&nbsp; 0800 654 0022
+                </div>
+            </a>
+        </div>
+        
+        <div class="div2">
+            <div class="Telefone">
+                Pelo WhatsApp
+            </div>
+            <a style="text-decoration: none;"
+                href="https://wa.me/5587999394718?text=Olá,%20Gostaria%20de%20falar%20com%20um%20atendente."
+                target="_blank" class="externo">
+                <div class="Numero">
+                    <img class="imgT" src="imagens/whatsapp.png" width="25px" alt="">&nbsp;&nbsp;&nbsp; (87) 99939-4718
+                </div>
+            </a>
+
+        </div>
+
+        <div class="div2">
+            <div class="Telefone">
+                Indo na Central
+            </div>
+            <a style="text-decoration: none;" href="https://maps.app.goo.gl/hNtGDbuFqLrg8uXC6" target="_blank"
+                class="externo">
+                <div class="Numero">
+                    <img class="imgT" src="imagens/localização2.png" width="25px" alt="">&nbsp;&nbsp;&nbsp; Localização
+                </div>
+            </a>
+        </div>
+    </article>
+    <!------------------------TEXTO ANTES DOS PLANOS----------------------->
+    <div id="escolha">
+        Confira nossos planos <a style="color: var(--cor0);">TREND</a> Connect+
+    </div>
+    <div id="escolha1">
+        Grátis Watch e Paramount+ apartir do plano de 150MB
+    </div>
+
+    <!---------------------------------PLANOS----------------------------------->
+    <span id="planos"></span>
+    <main>
+
+        <article style="background-color: var(--cor0); padding: 2px;"></article>
+        
+        <section id="todosPlanos">
+
+            <article class="planoA">
+                <ul class="mensalidade" style="list-style: none;">
+                    <li id="planoX">
+                        <img src="imagens/TREND 70.png" width="200px" height="200px" alt="">
+                    </li>
+                    <a href="https://wa.me/555587999394718?text=Olá,%20estou%20interessado%20no%20plano%20de%2070MB%20da%20Trend%20Connect,%20como%20faço%20para%20contratar?"
+                        target="_blank" class="externo" style="color: white; text-decoration: none;">
+                        <button class="custom-btn btn-15"
+                            style="background-image: linear-gradient(to bottom, var(--cor4), var(--cor11));;">CONTRATE
+                            JÁ</button>
+                    </a>
+                    <ul id="especificacoes" style="list-style: none;">
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 280px;">
+                            <br><img src="imagens/ico-fibra2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>100% Fibra Óptica</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-wifi2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Wi-fi Alta Performance</strong>
+                        </li>
+                        <li><img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-download2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Download 70MB</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-upload2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Upload 70MB</strong>
+                        </li>
+                        <div style="margin-bottom: 20px;">
+
+                        </div>
+                    </ul>
+            </article>
+            
+            <article class="planoA">
+                <ul class="mensalidade" style="list-style: none;">
+                    <li id="planoX">
+                        <img src="imagens/TREND 100.png" width="200px" height="200px" alt="">
+                    </li>
+                    <a href="https://wa.me/555587999394718?text=Olá,%20estou%20interessado%20no%20plano%20de%20100MB%20da%20Trend%20Connect,%20como%20faço%20para%20contratar?"
+                        target="_blank" class="externo" style="color: white; text-decoration: none;">
+                        <button class="custom-btn btn-15"
+                            style="background-image: linear-gradient(to bottom, var(--cor4), var(--cor11));;">CONTRATE
+                            JÁ</button>
+                    </a>
+                    <ul id="especificacoes" style="list-style: none;">
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 280px;">
+                            <br><img src="imagens/ico-fibra2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>100% Fibra Óptica</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-wifi2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Wi-fi Alta Performance</strong>
+                        </li>
+                        </li>
+                        <li><img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-download2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Download 100MB</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-upload2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Uplaod 100MB</strong>
+                        </li>
+                        <div style="margin-bottom: 20px;">
+
+                        </div>
+                    </ul>
+                </ul>
+            </article>
+
+            <article class="planoA">
+                <ul class="mensalidade" style="list-style: none;">
+                    <li id="planoX">
+                        <img src="imagens/TREND 150.png" width="200px" height="200px" alt="">
+                    </li>
+                    <a href="https://wa.me/555587999394718?text=Olá,%20estou%20interessado%20no%20plano%20de%20150MB%20da%20Trend%20Connect,%20como%20faço%20para%20contratar?"
+                        target="_blank" class="externo" style="color: white; text-decoration: none;">
+                        <button class="custom-btn btn-15"
+                            style="background-image: linear-gradient(to bottom, var(--cor4), var(--cor11));;">CONTRATE
+                            JÁ</button>
+                    </a>
+                    <ul id="especificacoes" style="list-style: none;">
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 280px;">
+                            <br><img src="imagens/ico-fibra2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>100% Fibra Óptica</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-wifi2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Wi-fi Alta Performance</strong>
+                        </li>
+                        </li>
+                        <li><img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-download2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Download 150MB</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-upload2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Upload 150MB</strong>
+                        </li>
+                        <div style="margin-bottom: 20px;">
+
+                        </div>
+                    </ul>
+                </ul>
+            </article>
+
+            <article class="planoA">
+                <ul class="mensalidade" style="list-style: none;">
+                    <li id="planoX">
+                        <img src="imagens/TREND 200.png" width="200px" height="200px" alt="">
+                    </li>
+                    <a href="https://wa.me/555587999394718?text=Olá,%20estou%20interessado%20no%20plano%20de%20200MB%20da%20Trend%20Connect,%20como%20faço%20para%20contratar?"
+                        target="_blank" class="externo" style="color: white; text-decoration: none;">
+                        <button class="custom-btn btn-15"
+                            style="background-image: linear-gradient(to bottom, var(--cor4), var(--cor11));;">CONTRATE
+                            JÁ</button>
+                    </a>
+                    <ul id="especificacoes" style="list-style: none;">
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 280px;">
+                            <br><img src="imagens/ico-fibra2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>100% Fibra Óptica</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-wifi2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Wi-fi Alta Performance</strong>
+                        </li>
+                        </li>
+                        <li><img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-download2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Download 200MB</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-upload2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+
+                            <strong>Upload 200MB</strong>
+                        </li>
+                        <div style="margin-bottom: 20px;">
+
+                        </div>
+                    </ul>
+                </ul>
+            </article>
+
+            <article class="planoA">
+                <ul class="mensalidade" style="list-style: none;">
+                    <li id="planoX">
+                        <img src="imagens/TREND 300.png" width="200px" height="200px" alt="">
+                    </li>
+                    <a href="https://wa.me/555587999394718?text=Olá,%20estou%20interessado%20no%20plano%20de%20300MB%20da%20Trend%20Connect,%20como%20faço%20para%20contratar?"
+                        target="_blank" class="externo" style="color: white; text-decoration: none;">
+                        <button class="custom-btn btn-15"
+                            style="background-image: linear-gradient(to bottom, var(--cor4), var(--cor11));;">CONTRATE
+                            JÁ</button>
+                    </a>
+                    <ul id="especificacoes" style="list-style: none;">
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 280px;">
+                            <br><img src="imagens/ico-fibra2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>100% Fibra Óptica</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-wifi2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Wi-fi Alta Performance</strong>
+                        </li>
+                        </li>
+                        <li><img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-download2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Download 300MB</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-upload2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+
+                            <strong>Upload 300MB</strong>
+                        </li>
+                        <div style="margin-bottom: 20px;">
+
+                        </div>
+                    </ul>
+                </ul>
+            </article>
+
+            <article class="planoA">
+                <ul class="mensalidade" style="list-style: none;">
+                    <li id="planoX">
+                        <img src="imagens/TREND 500.png" width="200px" height="200px" alt="">
+                    </li>
+                    <a href="https://wa.me/555587999394718?text=Olá,%20estou%20interessado%20no%20plano%20de%20500MB%20da%20Trend%20Connect,%20como%20faço%20para%20contratar?"
+                        target="_blank" class="externo" style="color: white; text-decoration: none;">
+                        <button class="custom-btn btn-15"
+                            style="background-image: linear-gradient(to bottom, var(--cor4), var(--cor11));;">CONTRATE
+                            JÁ</button>
+                    </a>
+                    <ul id="especificacoes" style="list-style: none;">
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 280px;">
+                            <br><img src="imagens/ico-fibra2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>100% Fibra Óptica</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-wifi2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Wi-fi Alta Performance</strong>
+                        </li>
+                        </li>
+                        <li><img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-download2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+                            <strong>Download 500MB</strong>
+                        </li>
+                        <li>
+                            <img src="imagens/correto3.png" width="10px" height="40px" style="max-width: 170px;">
+                            <br><img src="imagens/ico-upload2.png" width="25px" height="20px"
+                                style="max-width: 20px; max-height: 25px; margin-bottom: -2px;">
+
+                            <strong>Upload 500MB</strong>
+                        </li>
+                        <div style="margin-bottom: 20px;">
+
+                        </div>
+                    </ul>
+                </ul>
+            </article>
+
+        </section>
+        <aside style="background-color: var(--cor1);">
+        </aside>
+        </article>
+    </main>
+
+    <!----------------------------------TEXTO MEIO------------------------>
+    <h1 id="meio"
+        style="font-family: sans-serif;font-size: 170%; text-indent: 20px; letter-spacing: 1px; font-weight: inherit; text-align: justify;">
+        Estamos entusiasmados em anunciar que estamos expandindo nossos serviços de internet para atender a todas as
+        necessidades de conexão. Na <a href="#"
+            style="font-family: fontelogo; color: rgb(45, 146, 45); text-decoration: none;">TREND</a>
+        <strong>Connect+</strong>, acreditamos que a internet deve ser acessível e adaptada aos seus gostos individuais.
+        É por isso que estamos oferecendo uma variedade de planos para garantir que você obtenha exatamente o que
+        deseja.
+
+    </h1>
+    <!--------------------------IMG MULHER E LISTRAS------------------------->
+    <aside style="background-color:var(--cor5);margin-left: 350px;margin-bottom: 50px;">
+
+    </aside>
+    <aside style="margin-bottom: 30px;">
+
+    </aside>
+    <br>
+    <picture class="imgMulher">
+
+        <img src="imagens/mulher_trend1.png" alt="">
+    </picture>
+    <!--------------------------------VIDEO------------------------------->
+    <div class="container">
+        <div class="video">
+            <iframe style="border-radius: 30px;" width="400" height="710" src="videos/video-trend.mp4"
+                title="Video da Trend" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen controls></iframe>
+        </div>
+        <div class="txtvideo">
+            <h1 style="margin-bottom: 30px;">
+                <p style="color: white; font-family: var(--fonte-android);">TREND<span
+                        style="color: rgb(34, 0, 128);">+</span></p> Para sua Empresa
+            </h1>
+            <p style="text-align: left;">
+                <strong>Destaque</strong> a confiabilidade da sua infraestrutura de rede, mostrando que a conexão à
+                Internet será estável e consistente. Isso é essencial para manter as operações comerciais funcionando
+                sem interrupções.Mencione a velocidade da sua conexão à Internet, enfatizando a capacidade de lidar com
+                cargas de trabalho pesadas, transferência de dados rápida e streaming de mídia sem problemas.<br>
+
+                <strong>Mostre</strong> seu compromisso em manter-se atualizado com as mais recentes tecnologias de rede
+                e em oferecer atualizações regulares para melhorar o desempenho e a segurança.
+            </p>
+            <a style="text-decoration: none;"
+                href="https://wa.me/555587999394718?text=Olá,%20Gostaria%20de%20falar%20com%20um%20atendente."
+                target="_blank" class="externo">
+                <div class="Numeroo">
+                    <img class="imgT" src="imagens/setaparadireitaB.png" width="25px"
+                        style="margin-left: -40px;">&nbsp;&nbsp;&nbsp; CONTRATE AGORA
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-----------------------------ANTES DO PARALAX-------------------------->
+    <div id="escolha" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        Nossa missão é proporcionar a você a liberdade de explorar, aprender e se divertir, sempre.
+    </div>
+    <div id="escolha1">
+        Desfrute de conteúdo de alta qualidade a qualquer hora
+    </div>
+    <!----------------------------PARALAX------------------------------------->
+    <section id="img01">
+
+        <h1>Seu provedor de Internet</h1>
+        <p style="color: rgb(213, 213, 231);">Conexão rápida e confiável.
+            <br>
+            <img src="imagens/TREND TAMANHO CERTO.png" width="200px" alt="">
+        </p>
+
+    </section>
+    <!----------------------------TEXTO ANTES DO RODAPÉ---------------------->
+    <div class="wifiback" style="background-color: #ffffff; position: relative; box-shadow: 1px 1px 10px 0px;;">
+        <div class="wifi">
+            <img class="imgS" src="imagens/networkgif.gif" width="80px" height="80px" style="margin-right:0px;"><br>
+            <span
+                style="font-family: Arial, Helvetica, sans-serif;font-size: 100%; text-indent: 20px; letter-spacing: 1px; font-weight: inherit;">
+                <h1 class="ves">Velocidade</h1><br>
+                <p style="text-align: justify;">
+                    <span>
+                        &nbsp Experimente a velocidade máxima com <a href="#"
+                            style="font-family: fontelogo; color: rgb(45, 146, 45); text-decoration: none;">TREND</a>
+                        <strong>Connect+</strong>. Nossa conexão de alta velocidade permite que você faça o que ama
+                        online, sem atrasos. Transmita vídeos em 4K, jogue sem interrupções e baixe arquivos grandes em
+                        questão de segundos. Nós entendemos a importância da velocidade no mundo digital de hoje, e é
+                        por isso que oferecemos a velocidade de internet que você merece.
+                    </span>
+                </p>
+            </span>
+        </div>
+        <div class="wifi">
+            <img class="imgS" src="imagens/wifigif.gif" width="80px" height="80px" style="margin-right:0px;"><br>
+            <span
+                style="font-family:Arial, Helvetica, sans-serif;font-size: 100%; text-indent: 20px; letter-spacing: 1px; font-weight: inherit;">
+                <h1 class="ves" style="">Estabilidade</h1><br>
+                <p style="text-align: justify;">
+                    <span>
+                        &nbsp Estamos comprometidos em fornecer o melhor desempenho possível. Nossa rede é projetada
+                        para oferecer uma experiência de internet perfeita, com tempos de carregamento rápidos e
+                        desempenho estável. Seja para trabalho, entretenimento ou comunicação, nossa conexão de internet
+                        garante que você tenha um desempenho impecável em todas as atividades online.
+                    </span>
+                </p>
+            </span>
+        </div>
+        <div class="wifi">
+            <img class="imgS" src="imagens/segurancagif.gif" width="80px" height="80px" style="margin-right:10px;"><br>
+            <span
+                style="font-family: Arial, Helvetica, sans-serif;font-size: 100%; text-indent: 20px; letter-spacing: 1px; font-weight: inherit;">
+                <h1 class="ves">Segurança</h1><br>
+                <p style="text-align: justify;">
+                    <span>
+                        &nbsp Sua segurança é nossa principal prioridade. Utilizamos tecnologias avançadas para proteger
+                        sua conexão de internet contra ameaças cibernéticas. Nossa rede é monitorada constantemente para
+                        garantir que você possa navegar com tranquilidade, sabendo que seus dados estão seguros. A
+                        segurança é parte integrante do nosso compromisso com a qualidade e experiência online.
+                    </span>
+                </p>
+        </div>
+    </div>
+    </div>
+    <!---------------------------SETA PARA CIMA-------------------------->
+    <button id="scrollTopBtn" onclick="scrollToTop()"><img src="imagens/setaparacima.png" width="45px"></button>
+
+
+    <!-------------------------------RODAPÉ---------------------------->
+    <footer>
+        <aside style=" background-color: #0aca14; margin-top:-5px;border-radius: 0px;padding: 1px;margin-bottom: 20px;">
+        </aside>
+        <div class="rodape">
+            <img class="imgrodape" src="imagens/logo_trend.png" width="300" alt="logotrend">
+            <span style="color: white;"> <br> </span>
+        </div>
+
+        <div class="contatos">
+            <span style="font-size: 1.5em;"><strong>CONTATOS</strong></span>
+            </br><br>
+            <a style="text-decoration: none;"
+                href="https://wa.me/555587999394718?text=Olá,%20Gostaria%20de%20falar%20com%20um%20atendente."
+                target="_blank" class="externo">
+                <span> <img src="imagens/whatsapp.png" width="15px" height="15px">
+                    (87) 99939-4718 </span>
+            </a>
+            <br>
+            <a style="text-decoration: none;" href="tel:08006540022">
+                <span><img src="imagens/telefone.png" width="15px" height="15px" alt=""> 0800 654 0022</span>
+            </a>
+            <br>
+            <span>www.trendconnect.com.br</span>
+        </div>
+        <div class="endereco">
+            <span style="font-size: 1.5em;;"><strong>ENDEREÇO</strong></span>
+            <br><br>
+            <a href="https://www.google.com.br/maps/place/TREND+CONNECT%2B/@-8.8857567,-36.4783059,19z/data=!3m1!4b1!4m6!3m5!1s0x7070d20260be973:0x20901f44be099f8a!8m2!3d-8.885758!4d-36.4776622!16s%2Fg%2F11fnh0th4b?entry=tts"
+                target="_black" class="externo">
+                <span>R. Francisco Gueiros, 40-A - Heliópolis</span>
+                <br>
+                <span>Garanhuns - PE</span>
+                <br>
+                <span>CEP-55296-630</span>
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
