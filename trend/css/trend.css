@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'fontelogo';
-    src: url('fontes/abnes/abnes.otf') format('opentype');
+    src: url('../fontes/abnes/abnes.otf') format('opentype');
     font-weight: normal;
 }
 @font-face {
     font-family: 'public';
-    src: url('fontes/public/PublicSans-Bold.ttf') format('opentype');
+    src: url('../fontes/public/PublicSans-Bold.ttf') format('opentype');
     font-weight: normal;
 }
 
@@ -531,7 +531,7 @@ div.video>iframe {
 }
 /*---------------------PARALAX--------------------------------------------*/
 #img01 {
-    background-image: url(imagens/gara1.png);
+    background-image: url(../imagens/gara1.png);
     background-position: right center;
 }
 
