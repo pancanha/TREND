@@ -565,5 +565,43 @@
     </footer>
 
 </body>
+<!--<img id="carouselImage" src="sua_imagem.jpg" alt="Imagem do Carrossel">
+
+<script>
+var radio = document.querySelector('.manual-btn');
+var cont = 1;
+var intervalId;
+
+document.getElementById('radio1').checked = true;
+
+// Iniciar o carrossel
+intervalId = setInterval(() => {
+    proximaImg();
+}, 1000);
+
+// Adicionar eventos ao documento para mousedown e mouseup
+document.addEventListener('mousedown', function() {
+    // Ao segurar o clique, pausar o carrossel
+    clearInterval(intervalId);
+});
+
+document.addEventListener('mouseup', function() {
+    // Ao soltar o clique, retomar o carrossel
+    intervalId = setInterval(() => {
+        proximaImg();
+    }, 1000);
+});
+
+function proximaImg() {
+    cont++;
+
+    if (cont > 3) {
+        cont = 1;
+    }
+
+    document.getElementById('radio' + cont).checked = true;
+}
+</script>
+-->
 
 </html>
