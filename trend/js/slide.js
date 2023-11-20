@@ -39,7 +39,7 @@ function avancarAutomaticamente() {
 }
 
 // Iniciar o intervalo quando a página carregar
-intervalId = setInterval(avancarAutomaticamente, 10000);
+intervalId = setInterval(avancarAutomaticamente, 12000);
 
 document.addEventListener('mouseup', function() {
     // Ao soltar o clique, reiniciar a posição inicial
@@ -50,7 +50,7 @@ document.addEventListener('mouseup', function() {
 
     // Retomar o intervalo ao soltar a imagem, se o clique não estiver sendo mantido
     if (!clickHold) {
-        intervalId = setInterval(avancarAutomaticamente, 10000);
+        intervalId = setInterval(avancarAutomaticamente, 12000);
     }
 
     // Resetar a flag do clique
@@ -73,7 +73,7 @@ intervalId = setInterval(function() {
     if (!clickHold) {
         proximaImg(true);
     }
-}, 10000);
+}, 12000);
 //-------------------------- MENU HAMBURGUER-----------------//
 
 function mudouTamanho() {
