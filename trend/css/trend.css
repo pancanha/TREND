@@ -7,6 +7,7 @@
     src: url('../fontes/abnes/abnes.otf') format('opentype');
     font-weight: normal;
 }
+
 @font-face {
     font-family: 'public';
     src: url('../fontes/public/PublicSans-Bold.ttf') format('opentype');
@@ -36,7 +37,7 @@
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue';
     --fonte-android: 'fontelogo';
-    --fonte-public:'public';
+    --fonte-public: 'public';
 }
 
 body {
@@ -86,7 +87,7 @@ nav {
     text-align: center;
 }
 
-menu > ul > li {
+menu>ul>li {
     color: rgb(15, 59, 4);
     padding: 10px;
     border-radius: 0px;
@@ -97,24 +98,26 @@ menu > ul > li {
     display: inline-block;
 }
 
-menu > ul > li:hover {
-   background-color: var(--cor5);
+menu>ul>li:hover {
+    background-color: var(--cor5);
     color: white;
 }
+
 .menu {
     width: 100%;
-    display: inline-block; 
+    display: inline-block;
 }
 
-menu > ul > li {
+menu>ul>li {
     color: var(--cor0);
     text-decoration: none;
     font-size: 18px;
     padding-bottom: 8px;
     position: relative;
-    cursor: pointer; 
+    cursor: pointer;
 }
-menu > ul > li::after {
+
+menu>ul>li::after {
     content: " ";
     width: 0px;
     height: 4px;
@@ -124,14 +127,17 @@ menu > ul > li::after {
     left: 0;
     transition: width 0.7s;
 }
-menu > ul > li:hover::after {
+
+menu>ul>li:hover::after {
     width: 100%;
 }
-menu > ul > li:hover {
+
+menu>ul>li:hover {
     color: #ffffff;
 }
+
 /*---------------------------MENU BOTÕES-----------------------*/
-span.material-symbols-outlined{
+span.material-symbols-outlined {
     background-color: var(--cor5);
     color: rgb(255, 255, 255);
     display: block;
@@ -139,59 +145,69 @@ span.material-symbols-outlined{
     padding: 10px;
     cursor: pointer;
 }
-span.material-symbols-outlined:hover{
+
+span.material-symbols-outlined:hover {
     background-image: linear-gradient(45deg, var(--cor0), var(--cor1));
     color: black;
 }
-menu{
-    display:none;
+
+menu {
+    display: none;
 }
-menu > ul {
+
+menu>ul {
     list-style: none;
 }
-menu > ul > li {
+
+menu>ul>li {
     display: block;
     padding: 10px;
     text-decoration: none;
     background-color: rgb(255, 255, 255);
     color: var(--cor0);
     text-align: center;
-     border-top: 0px solid rgb(190, 188, 188);
-    cursor: pointer; 
+    border-top: 0px solid rgb(190, 188, 188);
+    cursor: pointer;
 }
+
 @media screen and (min-width: 768px) {
 
-    span.material-symbols-outlined{
+    span.material-symbols-outlined {
         display: none;
     }
+
     menu {
         display: block;
     }
-    menu > ul > li {
+
+    menu>ul>li {
         display: inline-block;
-    
+
         border-radius: 5px;
     }
-    }
-    
+}
+
 /*---------------------------Abaixo do Banner-----------------------*/
-.exterto{
+.exterto {
     text-decoration: none;
 }
+
 .AbaixoDoBanner {
     width: 100%;
     margin-top: 100px;
-    text-align:center;
+    text-align: center;
     padding: 70px 0;
     position: relative;
     display: inline-block;
     background-image: linear-gradient(to top, #0460D9, #0451B5, #0460D9);
-    text-decoration: none; 
+    text-decoration: none;
 }
-.imgT{
+
+.imgT {
     margin-bottom: -6px;
 }
-.div1{
+
+.div1 {
     display: inline-block;
     color: var(--cor10);
     font-family: "DM Sans", DM Sans, Sans-serif;
@@ -201,10 +217,11 @@ menu > ul > li {
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;     
+    margin-inline-end: 0px;
 }
-@media (min-width: 1200px){ 
-}
+
+@media (min-width: 1200px) {}
+
 .div2 {
     display: inline-block;
     margin: center;
@@ -214,17 +231,20 @@ menu > ul > li {
     font-size: 18px;
     font-weight: bold;
     position: relative;
-    text-align: center; /* Centraliza o texto em telas menores */
+    text-align: center;
+    /* Centraliza o texto em telas menores */
 }
+
 .Telefone {
-    
+
     margin: center;
     color: white;
     font-family: "DM Sans", DM Sans, Sans-serif;
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
-    text-align: center; /* Centraliza o texto em telas menores */
+    text-align: center;
+    /* Centraliza o texto em telas menores */
 }
 
 .Numero {
@@ -237,7 +257,7 @@ menu > ul > li {
     color: var(--cor10);
     background-color: var(--cor8);
     border-radius: 50px;
-    width:100%;
+    width: 100%;
     line-height: 1;
     padding: 16px 27px;
     text-align: center;
@@ -245,8 +265,9 @@ menu > ul > li {
     box-sizing: border-box;
     cursor: pointer;
     border-style: solid;
-    border-color: #f2da05; 
+    border-color: #f2da05;
 }
+
 .Numero:hover {
     display: inline-block;
     margin: center;
@@ -257,7 +278,7 @@ menu > ul > li {
     color: var(--cor10);
     background-color: #ee9c04;
     border-radius: 50px;
-    width:100%;
+    width: 100%;
     line-height: 1;
     padding: 16px 27px;
     text-align: center;
@@ -265,17 +286,21 @@ menu > ul > li {
     box-sizing: border-box;
     cursor: pointer;
     border-style: solid;
-    border-color: #f2da05; 
+    border-color: #f2da05;
 }
-.Numero>a{
+
+.Numero>a {
     color: white;
 }
+
 .linha-vertical {
-    height: 150px;/*Altura da linha*/
-    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
-   border-color: var(--cor10);
-   display: inline-block;
-  }
+    height: 150px;
+    /*Altura da linha*/
+    border-left: 2px solid;
+    /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    border-color: var(--cor10);
+    display: inline-block;
+}
 
 /*---------------------------MEIO-----------------------*/
 main {
@@ -283,7 +308,7 @@ main {
     max-width: 3200px;
     margin: auto;
     padding: 2px;
-    background-color: var(--cor0); 
+    background-color: var(--cor0);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
     border-radius: 0px 0px 15px 15px;
     background-color: white;
@@ -292,10 +317,12 @@ main {
     padding: 10px;
     border-radius: 10px;
 }
+
 main p {
     margin: 0px 0px;
     text-align: justify;
 }
+
 main p {
     margin: 10px 0px;
     text-align: justify;
@@ -303,23 +330,28 @@ main p {
     font-size: 1em;
     line-height: 2em;
 }
+
 main strong {
     color: var(--cor4);
     font-weight: bold;
 }
+
 main a {
     text-decoration: none;
     font-weight: bold;
     color: black;
     padding: 2px 2px;
 }
+
 main a:hover {
     text-decoration: underline;
     color: #1E3C45;
 }
+
 main img {
     width: 100%;
 }
+
 aside {
     background-color: var(--cor0);
     padding: 10px;
@@ -327,10 +359,12 @@ aside {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.473);
     margin-top: 15px;
 }
+
 /*-------------------------------VIDEO-------------------------*/
 .container {
     display: flex;
-    flex-direction: column; /* Empilha os elementos verticalmente */
+    flex-direction: column;
+    /* Empilha os elementos verticalmente */
     align-items: center;
     margin: auto;
     position: relative;
@@ -338,6 +372,7 @@ aside {
     padding: 40px 0px;
     background-image: linear-gradient(to top, var(--cor3), var(--cor0));
 }
+
 div.video>iframe {
     position: relative;
     top: 5%;
@@ -346,10 +381,11 @@ div.video>iframe {
     height: 80%;
     min-width: 350px;
     min-height: 620px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.479);
     margin-left: 00px;
 }
+
 .txtvideo {
     display: inline-block;
     max-width: 800px;
@@ -364,11 +400,12 @@ div.video>iframe {
     margin-right: 15px;
     margin-bottom: 100px;
     margin-top: 40px;
-    font-family: sans-serif; 
-    text-indent: 20px; 
-    letter-spacing: 1px; 
+    font-family: sans-serif;
+    text-indent: 20px;
+    letter-spacing: 1px;
     font-weight: inherit;
 }
+
 .Numeroo {
     margin-top: 40px;
     display: inline-block;
@@ -380,7 +417,7 @@ div.video>iframe {
     color: var(--cor10);
     background-color: var(--cor1);
     border-radius: 50px;
-    width:80%;
+    width: 80%;
     line-height: 1;
     padding: 16px 20px;
     text-align: center;
@@ -388,8 +425,9 @@ div.video>iframe {
     box-sizing: border-box;
     cursor: pointer;
     border-style: solid;
-    border-color: #0DF205; 
+    border-color: #0DF205;
 }
+
 .Numeroo:hover {
     display: inline-block;
     margin: center;
@@ -400,7 +438,7 @@ div.video>iframe {
     color: var(--cor10);
     background-color: var(--cor12);
     border-radius: 50px;
-    width:90%;
+    width: 90%;
     line-height: 1;
     padding: 16px 27px;
     text-align: center;
@@ -408,28 +446,32 @@ div.video>iframe {
     box-sizing: border-box;
     cursor: pointer;
     border-style: solid;
-    border-color: var(--cor6); 
+    border-color: var(--cor6);
 }
-.Numeroo>a{
+
+.Numeroo>a {
     color: white;
 }
 
 @media (min-width: 1200px) {
     .container {
-        flex-direction: row; /* Alinha elementos horizontalmente em telas maiores */ 
+        flex-direction: row;
+        /* Alinha elementos horizontalmente em telas maiores */
     }
+
     div.video>iframe {
-    position: relative;
-    top: 5%;
-    left: 1%;
-    width: 7%;
-    height: 80%;
-    min-width: 350px;
-    min-height: 620px;
-    margin-bottom:20px;
-    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.479);
-    margin-left: 200px;  
+        position: relative;
+        top: 5%;
+        left: 1%;
+        width: 7%;
+        height: 80%;
+        min-width: 350px;
+        min-height: 620px;
+        margin-bottom: 20px;
+        box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.479);
+        margin-left: 200px;
     }
+
     .txtvideo {
         display: inline-block;
         max-width: 500px;
@@ -442,6 +484,7 @@ div.video>iframe {
         text-align: center;
         margin-left: 180px;
     }
+
     .Numeroo {
         margin-top: 40px;
         display: inline-block;
@@ -453,7 +496,7 @@ div.video>iframe {
         color: var(--cor10);
         background-color: var(--cor1);
         border-radius: 50px;
-        width:70%;
+        width: 70%;
         line-height: 1;
         padding: 16px 20px;
         text-align: center;
@@ -461,8 +504,9 @@ div.video>iframe {
         box-sizing: border-box;
         cursor: pointer;
         border-style: solid;
-        border-color: #0DF205; 
+        border-color: #0DF205;
     }
+
     .Numeroo:hover {
         display: inline-block;
         margin: center;
@@ -473,7 +517,7 @@ div.video>iframe {
         color: var(--cor10);
         background-color: var(--cor12);
         border-radius: 50px;
-        width:90%;
+        width: 90%;
         line-height: 1;
         padding: 16px 27px;
         text-align: center;
@@ -481,7 +525,7 @@ div.video>iframe {
         box-sizing: border-box;
         cursor: pointer;
         border-style: solid;
-        border-color: var(--cor6); 
+        border-color: var(--cor6);
     }
 }
 
@@ -491,6 +535,7 @@ div.video>iframe {
     margin-top: -100%;
     max-width: 320px;
 }
+
 #meio {
     max-width: 2900px;
     margin-top: 150px;
@@ -507,6 +552,7 @@ div.video>iframe {
     background-color: #60B852;
     margin: 0px;
 }
+
 .planoA {
     display: inline-block;
     margin: center;
@@ -518,15 +564,18 @@ div.video>iframe {
     border-radius: 11px;
     box-shadow: 1px 2px 10px 0px;
 }
+
 #especificacoes {
     padding: 2px 1px 5px 1px;
 }
+
 .mensalidade {
     border-radius: 10px 10px 10px 10px;
     padding-top: 2px;
     background-color: rgb(255, 255, 255);
     margin: auto;
 }
+
 /*---------------------PARALAX--------------------------------------------*/
 #img01 {
     background-image: url(../imagens/gara1.png);
@@ -556,6 +605,7 @@ div.video>iframe {
     text-align: center;
     font-size: 1.5em;
 }
+
 section>p {
     padding-bottom: 2em;
 }
@@ -568,6 +618,7 @@ section>p {
         padding-left: 30px;
         font-size: 3.0em;
     }
+
     #img01>p {
         display: inline-block;
         padding: 20px;
@@ -575,9 +626,10 @@ section>p {
         font-size: 0.8em;
     }
 }
+
 /*---------------------TEXTO ANTES DOS PLANOS-------------------------------*/
 #escolha {
-    
+
     text-align: center;
     font-family: var(--fonte-destaque);
     font-weight: 700;
@@ -588,8 +640,9 @@ section>p {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 #escolha1 {
-    
+
     color: rgb(119, 128, 136);
     text-align: center;
     font-family: var(--fonte-destaque);
@@ -601,47 +654,52 @@ section>p {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 /*-----------------------ANTES DO RODAPÉ-------------------------------*/
 
-.wifiback {     
+.wifiback {
     text-align: center;
     margin-left: 0px;
     padding-bottom: 5%;
     padding-top: 2%;
 }
 
-div.wifi { 
+div.wifi {
     text-align: center;
-     /* text-align: left; */ 
+    /* text-align: left; */
     display: inline-block;
-    margin-left: 20px; /* Centraliza o bloco horizontalmente */ 
+    margin-left: 20px;
+    /* Centraliza o bloco horizontalmente */
     margin-right: 10px;
-    max-width: 400px; 
+    max-width: 400px;
 }
 
-.ves{
+.ves {
     font-size: 2.2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--cor4);
     width: 300px;
     text-align: center;
     display: block;
     margin-left: 40px;
 }
-@media (max-width: 1200px){
-    .ves{
+
+@media (max-width: 1200px) {
+    .ves {
         font-size: 2.2em;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: var(--cor4);
         width: 300px;
         text-align: center;
         display: block;
         margin-left: 20px;
+    }
+
+    .imgS {
+        margin-left: -10px;
+    }
 }
-.imgS{
-    margin-left: -10px;
-}
-}
+
 /*-----------------------RODAPÉ-------------------------------*/
 div.rodape {
     margin-top: 0px;
@@ -655,20 +713,23 @@ div.contatos {
     display: inline-block;
     margin-top: 10px;
 }
+
 div.endereco {
     max-width: 400px;
     display: inline-block;
     margin-top: 10px;
 }
+
 .imgrodape {
     position: relative;
 }
+
 footer {
     background-color: var(--cor11);
     color: white;
     text-align: center;
     font-size: 1.0em;
-    padding: 50px; 
+    padding: 50px;
 }
 
 footer a {
@@ -703,20 +764,25 @@ footer a:hover {
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     transition: all 0.3s ease;
 }
+
 .btn-15:hover {
     color: #ffffff;
 }
+
 .btn-15:hover:after {
     left: 0;
     width: 100%;
 }
+
 .btn-15:active {
     top: 2px;
 }
+
 button {
     margin: 2px;
     text-align: center;
 }
+
 .custom-btn {
     width: 250px;
     height: 40px;
@@ -750,15 +816,18 @@ button {
     cursor: pointer;
     padding: 0px;
 }
+
 #scrollTopBtn:hover {
     background-color: #2979FF;
 }
+
 /*---------------QUEM SOMOS----------------------*/
 #Q {
     display: block;
     position: relative;
     text-align: center;
 }
+
 #imgQ {
     margin-top: 80px;
     border-radius: 20px 0px;
@@ -767,14 +836,16 @@ button {
     max-width: 500px;
     height: 400px;
 }
+
 #Qsomos {
     margin-top: 100px;
     display: inline-block;
-    max-width:700px;
+    max-width: 700px;
     margin-left: 40px;
     margin-right: 20px;
-    
+
 }
+
 #somos {
     max-width: 700px;
     margin: auto;
@@ -786,71 +857,60 @@ button {
     font-family: sans-serif;
 }
 
-#Qsomos > span {
-    
-    background-color:#1E3E59; 
-    color: white; 
+#Qsomos>span {
+
+    background-color: #1E3E59;
+    color: white;
     border-radius: 20px;
     padding: 3px 200px 3px 200px
-    
-    
-
 }
-@media (max-width: 1300px) { 
+
+@media (max-width: 1300px) {
     #imgQ {
-    margin-top: 80px;
-    border-radius: 20px 0px;
-    text-align: center;
-    position: relative;
-    max-width: 800px;
-}
-#Qsomos > span {
-    
-    background-color:#1E3E59; 
-    color: white; 
-    border-radius: 20px;
-    padding: 3px 150px 3px 150px
-    
-    
+        margin-top: 80px;
+        border-radius: 20px 0px;
+        text-align: center;
+        position: relative;
+        max-width: 800px;
+    }
+
+    #Qsomos>span {
+
+        background-color: #1E3E59;
+        color: white;
+        border-radius: 20px;
+        padding: 3px 150px 3px 150px
+    }
 
 }
 
-}
-@media (max-width: 666px){
+@media (max-width: 666px) {
     #imgQ {
-    margin-top: 80px;
-    border-radius: 20px 0px;
-    text-align: center;
-    position: relative;
-    max-width: 400px;
-}
-#Qsomos > span {
-    
-    background-color:#1E3E59; 
-    color: white; 
-    border-radius: 20px;
-    padding: 3px 80px 3px 80px;
-    font-size: 30px;
-    
-    
+        margin-top: 80px;
+        border-radius: 20px 0px;
+        text-align: center;
+        position: relative;
+        max-width: 400px;
+    }
 
-}
-}
-@media (max-width: 466px){
-    
+    #Qsomos>span {
 
-#Qsomos > span {
-    
-    background-color:#1E3E59; 
-    color: white; 
-    border-radius: 20px;
-    padding: 3px 30px 3px 30px;
-    font-size: 30px;
-    
-    
-    
-
+        background-color: #1E3E59;
+        color: white;
+        border-radius: 20px;
+        padding: 3px 80px 3px 80px;
+        font-size: 30px;
+    }
 }
+
+@media (max-width: 466px) {
+    #Qsomos>span {
+        background-color: #1E3E59;
+        color: white;
+        border-radius: 20px;
+        padding: 3px 30px 3px 30px;
+        font-size: 30px;
+    }
 }
 
 .span1 {
