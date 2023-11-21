@@ -278,8 +278,6 @@ menu > ul > li {
   }
 
 /*---------------------------MEIO-----------------------*/
-main { 
-}
 main {
     min-width: 300px;
     max-width: 3200px;
@@ -579,7 +577,7 @@ section>p {
 }
 /*---------------------TEXTO ANTES DOS PLANOS-------------------------------*/
 #escolha {
-    background-color: ;
+    
     text-align: center;
     font-family: var(--fonte-destaque);
     font-weight: 700;
@@ -591,7 +589,7 @@ section>p {
     margin-right: 20px;
 }
 #escolha1 {
-    background-color: ;
+    
     color: rgb(119, 128, 136);
     text-align: center;
     font-family: var(--fonte-destaque);
@@ -775,6 +773,7 @@ button {
     max-width:700px;
     margin-left: 40px;
     margin-right: 20px;
+    
 }
 #somos {
     max-width: 700px;
@@ -786,6 +785,17 @@ button {
     text-align: justify;
     font-family: sans-serif;
 }
+
+#Qsomos > span {
+    
+    background-color:#1E3E59; 
+    color: white; 
+    border-radius: 20px;
+    padding: 3px 200px 3px 200px
+    
+    
+
+}
 @media (max-width: 1300px) { 
     #imgQ {
     margin-top: 80px;
@@ -793,16 +803,55 @@ button {
     text-align: center;
     position: relative;
     max-width: 800px;
-}  
 }
-@media (max-width: 600px){
+#Qsomos > span {
+    
+    background-color:#1E3E59; 
+    color: white; 
+    border-radius: 20px;
+    padding: 3px 150px 3px 150px
+    
+    
+
+}
+
+}
+@media (max-width: 666px){
     #imgQ {
     margin-top: 80px;
     border-radius: 20px 0px;
     text-align: center;
     position: relative;
     max-width: 400px;
-}}
+}
+#Qsomos > span {
+    
+    background-color:#1E3E59; 
+    color: white; 
+    border-radius: 20px;
+    padding: 3px 80px 3px 80px;
+    font-size: 30px;
+    
+    
+
+}
+}
+@media (max-width: 466px){
+    
+
+#Qsomos > span {
+    
+    background-color:#1E3E59; 
+    color: white; 
+    border-radius: 20px;
+    padding: 3px 30px 3px 30px;
+    font-size: 30px;
+    
+    
+    
+
+}
+}
 
 .span1 {
     padding: 80px;
