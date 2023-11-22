@@ -1,79 +1,22 @@
 //------------------------SLIDE--------------------------//
-var radio = document.querySelector('.manual-btn');
-var cont = 1;
-var startX;  // Posição inicial do mouse no eixo X
-var imagem = document.getElementById('carouselImage');
-var intervalId;  // ID do intervalo para o setInterval
-var clickHold = false;  // Flag para verificar se o clique está sendo mantido
+var radio = document.querySelector('.manual-btn')
+var cont = 1
 
-document.getElementById('radio1').checked = true;
+document.getElementById('radio1').checked = true
 
-// Adicionar eventos ao documento para mousedown, mousemove e mouseup
-document.addEventListener('mousedown', function(event) {
-    // Ao segurar o clique, armazenar a posição inicial
-    startX = event.clientX;
+setInterval(() => {
+    proximaImg()
+}, 12000)
 
-    // Pausar o intervalo ao clicar e segurar a imagem
-    clearInterval(intervalId);
+function proximaImg(){
+    cont++
 
-    // Atualizar a flag para indicar que o clique está sendo mantido
-    clickHold = true;
-});
-
-document.addEventListener('mousemove', function(event) {
-    // Verificar se o botão do mouse está pressionado
-    if (event.buttons === 1 && clickHold) {
-        // Determinar a direção do movimento do mouse
-        var deltaX = event.clientX - startX;
-
-        // Se o movimento for significativo, avançar para a próxima imagem
-        if (Math.abs(deltaX) > 50) {
-            proximaImg(deltaX > 0);
-            startX = event.clientX;  // Atualizar a posição inicial após avançar para a próxima imagem
-        }
+    if(cont > 3){
+        cont = 1 
     }
-});
 
-function avancarAutomaticamente() {
-    proximaImg(true);
+    document.getElementById('radio'+cont).checked = true
 }
-
-// Iniciar o intervalo quando a página carregar
-intervalId = setInterval(avancarAutomaticamente, 12000);
-
-document.addEventListener('mouseup', function() {
-    // Ao soltar o clique, reiniciar a posição inicial
-    startX = null;
-
-    // Limpar o intervalo antes de configurar um novo
-    clearInterval(intervalId);
-
-    // Retomar o intervalo ao soltar a imagem, se o clique não estiver sendo mantido
-    if (!clickHold) {
-        intervalId = setInterval(avancarAutomaticamente, 12000);
-    }
-
-    // Resetar a flag do clique
-    clickHold = false;
-});
-
-function proximaImg(avancar) {
-    // Se avancar for true, vá para a próxima imagem; caso contrário, vá para a imagem anterior
-    if (avancar) {
-        cont = cont === 1 ? 3 : cont - 1;
-    } else {
-        cont = cont === 3 ? 1 : cont + 1;
-    }
-
-    document.getElementById('radio' + cont).checked = true;
-}
-
-// Iniciar o intervalo quando a página carregar
-intervalId = setInterval(function() {
-    if (!clickHold) {
-        proximaImg(true);
-    }
-}, 12000);
 //-------------------------- MENU HAMBURGUER-----------------//
 
 function mudouTamanho() {
