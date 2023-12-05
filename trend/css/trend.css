@@ -712,12 +712,14 @@ div.contatos {
     max-width: 4000px;
     display: inline-block;
     margin-top: 10px;
+    margin-left: 15px;
 }
 
 div.endereco {
     max-width: 400px;
     display: inline-block;
     margin-top: 10px;
+    margin-left: 15px;
 }
 
 .imgrodape {
