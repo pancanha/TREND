@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php
+
+include "config/conexao.php";
+
+?>
 <html lang="pt-br">
 
 <head>

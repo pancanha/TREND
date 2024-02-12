@@ -5,8 +5,7 @@ $bancodedados = "banco_teste";
 $usuario = "root";
 $senha = "123456";
 
-$mysqli = new $mysqli($hostname, $bancodedados, $usuario, $senha);
-if ($mysqli->connect_errono) {
-    echo "Falha ao conectar: (" . $mysqli->connect_errono . ") " . $mysqli->connect_errono;
-} else
-    echo "Conectado";
+$mysqli = new mysqli ($hostname, $usuario, $senha, $bancodedados);
+if ($mysqli->connect_errno) {
+    echo "Falha ao conectar: (" . $mysqli->connect_errno . " ) " . $mysqli->connect_errono;
+} 
