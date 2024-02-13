@@ -1,11 +1,13 @@
 <?php
+// Conectar ao banco de dados (substitua essas informações pelas suas)
+$servername = "localhost";
+$username = "root";
+$password = "123456";
+$dbname = "banco_teste";
 
-$hostname = "localhost";
-$bancodedados = "banco_teste";
-$usuario = "root";
-$senha = "123456";
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-$mysqli = new mysqli ($hostname, $usuario, $senha, $bancodedados);
-if ($mysqli->connect_errno) {
-    echo "Falha ao conectar: (" . $mysqli->connect_errno . " ) " . $mysqli->connect_errono;
-} 
+// Verificar conexão
+if ($conn->connect_error) {
+    die("Falha na conexão: " . $conn->connect_error);
+}
