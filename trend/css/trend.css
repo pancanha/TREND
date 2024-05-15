@@ -96,6 +96,7 @@ menu>ul>li {
     transition-duration: 0.4;
     position: relative;
     display: inline-block;
+    
 }
 
 menu>ul>li:hover {
@@ -946,6 +947,4 @@ button {
     max-width: 400px;
     border-radius: 0px 20px;
     margin-left: -4px;
-
-
 }
